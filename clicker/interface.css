@@ -1,6 +1,7 @@
 .button{
 background-color : green;   
-border : none;   
+border : none; 
+display : inline-block;
    
    
    
