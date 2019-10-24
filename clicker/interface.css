@@ -1,8 +1,27 @@
+body{
+font-family : Comic Sans MS;	
+	
+	
+}
+
 .button{
-background-color : green;   
+background-color : #4c6287;
+color : white;
+border-radius : 12px;
+font-family : Comic Sans MS;   
 border : none; 
 display : inline-block;
-font-size : 32px;
-
+font-size : 16px;
+webkit-transition-duration : 0.4s;
+transition-duration : 0.4s;
 }
- 
+
+.button:hover{
+background-color : #4c6287;
+color : white;
+border-radius : 12px;
+font-family : Comic Sans MS;   
+border : none; 
+display : inline-block;
+font-size : 16px;
+} 
