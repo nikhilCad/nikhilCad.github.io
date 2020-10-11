@@ -12,19 +12,9 @@
       <h1>Hello world.</h1>
     </div>
     <p>Hello  world how are you? I am fine, thank you!</p>
-    <script type="text/javascript">
-      let app= new PIXI.Application({width:256,height:256});
-      document.body.appendChild(app.view);
 
-      PIXI.loader.add("images/dog.png").load(setup);
+    <script type="text/javascript" src="homepage.js"></script>
 
-      function setup(){
-        let dog= new PIXI.Sprite(PIXI.loader.resources["images/dog.png"].texture);
-        app.stage.addChild(dog);
-      }
-
-
-    </script>
     <a href="about.html">About</a>
     <a href="clicker/clicker.html">Clicker</a> 
  
