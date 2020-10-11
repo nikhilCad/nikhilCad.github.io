@@ -17,6 +17,14 @@
       document.body.appendChild(app.view);
       app.renderer.resize(512,512);
 
+      PIXI.loader.add("images/dog.png").load(setup);
+
+      func setup(){
+        let dog= new PIXI.Sprite(PIXI.loader.resources["images/dog.png"].texture);
+        app.stage.addChild(dog);
+      }
+
+
     </script>
     <a href="about.html">About</a>
     <a href="clicker/clicker.html">Clicker</a> 
