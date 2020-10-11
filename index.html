@@ -13,8 +13,9 @@
     </div>
     <p>Hello  world how are you? I am fine, thank you!</p>
     <script type="text/javascript">
-      let app= new PIXI.Application({width:256,height:256})
-      document.body.appendChild(app.view)
+      let app= new PIXI.Application({width:256,height:256});
+      document.body.appendChild(app.view);
+      app.renderer.resize(512,512);
 
     </script>
     <a href="about.html">About</a>
