@@ -15,11 +15,10 @@
     <script type="text/javascript">
       let app= new PIXI.Application({width:256,height:256});
       document.body.appendChild(app.view);
-      app.renderer.resize(512,512);
 
       PIXI.loader.add("images/dog.png").load(setup);
 
-      func setup(){
+      function setup(){
         let dog= new PIXI.Sprite(PIXI.loader.resources["images/dog.png"].texture);
         app.stage.addChild(dog);
       }
