@@ -12,12 +12,35 @@ loader.add("images/dog.png").load(setup);
 let timeFromStart = 0;
 let dog;
 
+//
+
  function setup(){
+
     dog= new Sprite(loader.resources["images/dog.png"].texture);
     dog.x=100;  dog.y=120;
     dog.scale.x=4;  dog.scale.y=4;
     dog.anchor.x=0.5;  dog.anchor.y=0.5;
     dog.rotation=0.5;
+
+
+    //Fancy stuff
+    let style = new TextStyle({
+			  fontFamily: "Arial",
+			  fontSize: 36,
+			  fill: "white",
+			  stroke: '#ff3300',
+			  strokeThickness: 4,
+			  dropShadow: true,
+			  dropShadowColor: "#000000",
+			  dropShadowBlur: 4,
+			  dropShadowAngle: Math.PI / 6,
+			  dropShadowDistance: 6,
+			});
+
+    let message = new Text("Hello Pixi!",style);
+    message.position.set(54, 96);
+
+	app.stage.addChild(message);
     app.stage.addChild(dog);
 
  }
