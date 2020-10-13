@@ -25,7 +25,7 @@ let dog;
 
 function gameLoop(delta){
 	timeFromStart = timeFromStart + 1;
-	dog.rotation = Math.sin(timeFromStart)*0.1;
+	dog.rotation = 3.14159*Math.sin(timeFromStart*0.05);
 }
 
 //Math.abs(Math.sin(num))
