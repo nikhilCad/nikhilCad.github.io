@@ -24,8 +24,12 @@ let dog;
 
 function gameLoop(){
 	requestAnimationFrame(gameLoop);//gets called 60 times per second, infinite loop
+	//NOTE: Pixi tells websites to run at 60FPS, so you don't need to do the
+	//deltaTime wizardry here(unless someone has an insanely slow computer)
+	
 	timeFromStart = timeFromStart + 1;
 	dog.rotation = 3.14159*Math.sin(timeFromStart*0.05);
+	dog.x += Math.sin(timeFromStart*0.05);
 }
 
 gameLoop();//calling it for first time here
