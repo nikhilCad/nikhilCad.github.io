@@ -8,7 +8,9 @@ loader.add("images/dog.png").load(setup);
 
  function setup(){
     let dog= new Sprite(loader.resources["images/dog.png"].texture);
-    dog.x=100;
-    dog.y=100;
+    dog.x=50;
+    dog.y=50;
+    dog.scale.x=4;
+    dog.scale.y=4;
     app.stage.addChild(dog);
  }
