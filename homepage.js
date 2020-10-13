@@ -20,13 +20,15 @@ let dog;
     dog.rotation=0.5;
     app.stage.addChild(dog);
 
-    app.ticker.add(delta=> gameLoop(delta))//60 FPS
  }
 
-function gameLoop(delta){
+function gameLoop(){
+	requestAnimationFrame(gameLoop);//gets called 60 times per second, infinite loop
 	timeFromStart = timeFromStart + 1;
 	dog.rotation = 3.14159*Math.sin(timeFromStart*0.05);
 }
+
+gameLoop();//calling it for first time here
 
 //Math.abs(Math.sin(num))
 
