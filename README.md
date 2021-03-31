@@ -1,1 +1,1 @@
-My website! Hey!!
+My website! Hey!! VS Code is great just remember to change setting to uto push commits!
