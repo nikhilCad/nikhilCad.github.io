@@ -19,6 +19,11 @@ body::-webkit-scrollbar {
   width: 0.25rem;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 body::-webkit-scrollbar-track {
   background: #1e1e24;
 }
