@@ -5,6 +5,5 @@
   
   section {
     overflow-y: scroll;
-    font-size: 0; 
     scroll-behavior: smooth;    /* <----- THE SECRET TO SMOOTH SCROLL ---- */
   }
