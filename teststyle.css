@@ -1,0 +1,25 @@
+a {
+    display: inline-block;
+    padding: 5px 7%;
+    text-decoration: none;
+  }
+  
+  nav, section {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  nav {
+    width: 350px;
+    padding: 5px;
+  }
+  
+  section {
+    width: 350px;
+    height: 130px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    font-size: 0; 
+    scroll-behavior: smooth;    /* <----- THE SECRET TO SMOOTH SCROLL ---- */
+  }
