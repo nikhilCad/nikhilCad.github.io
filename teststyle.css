@@ -1,5 +1,9 @@
 html {
     scroll-behavior: smooth;
+    
+  }
+
+  body{
     color : lightblue;
     background-color: darkolivegreen;
   }
