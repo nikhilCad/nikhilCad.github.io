@@ -4,8 +4,8 @@ html {
   }
 
   body{
-    color : rgb(81, 250, 14);
-    background-color: rgb(124, 56, 133);
+    color : rgb(229, 238, 241);
+    background-color: rgb(64,64,64);
   }
 
   nav{
@@ -17,13 +17,14 @@ html {
 
 
   .button {
-    background-color: rgb(77, 46, 82);
+    background-color: rgb(44, 44, 44);
     border: none;
     color: white;
     width : 10%;
     padding: 1% 2%;
     text-align: center;
     text-decoration: none;
+    border-radius: 5px;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -35,22 +36,24 @@ html {
 
   .button:hover{
     /* transiton time taken from transition in .button CSS*/
-    background-color: #4CAF50;
+    background-color: rgb(15,153,203);
     width : 15%;
 
   }
 
   a{
     /* Links */
-    color :rgb(165, 37, 137)
+    color :rgb(15,153,203);
   }
 
 
   ul li {
-    color: blueviolet;
-    background: #f7f3f5;
+    color: rgb(255, 255, 255);
+    background: rgb(37,37,48);
     border-radius: 5px;
     width: 40%;
     margin: 5px;
     list-style-position: inside;
+    list-style-type: none;/*Hide bullet dots in links*/
+    
   }
