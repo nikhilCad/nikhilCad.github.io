@@ -6,6 +6,7 @@ html {
   body{
     color : rgb(229, 238, 241);
     background-color: rgb(64,64,64);
+    text-align: center;
   }
 
   nav{
@@ -46,6 +47,11 @@ html {
     color :rgb(15,153,203);
   }
 
+  ul{
+    display: flex;
+    justify-content: center;/* To center the BOX DOES NOT CENTRE*/
+    flex-direction:column;
+  }
 
   ul li {
     color: rgb(255, 255, 255);
@@ -53,8 +59,10 @@ html {
     border-radius: 5px;
     width: 40%;
     margin: 5px;
-    text-align: center;
+    
     list-style-position: inside;
     list-style-type: none;/*Hide bullet dots in links*/
+
+    
     
   }
