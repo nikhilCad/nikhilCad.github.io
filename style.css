@@ -44,3 +44,12 @@ html {
     /* Links */
     color :rgb(164, 236, 29)
   }
+
+
+  ul li {
+    color: blueviolet;
+    background: #d6d0d4;
+    width: 40%;
+    margin: 5px;
+    list-style-position: inside;
+  }
