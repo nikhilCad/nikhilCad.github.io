@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* For smooth scrolling when clicking the link buttons*/
     
   }
 
@@ -19,4 +19,9 @@ html {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  a{
+    /* Links */
+    color :rgb(164, 236, 29)
   }
