@@ -9,16 +9,26 @@ html {
   }
 
   .button {
-    background-color: #4CAF50;
+    background-color: rgb(77, 46, 82);
     border: none;
     color: white;
-    padding: 15px 32px;
+    width : 20%;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+
+    transition : background-color 0.5s, width 0.5s;
+
+  }
+
+  .button:hover{
+    /* transiton time taken from transition in .button CSS*/
+    background-color: #4CAF50;
+    width : 25%;
 
   }
 
