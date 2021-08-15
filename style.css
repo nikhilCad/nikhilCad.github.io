@@ -8,11 +8,17 @@ html {
     background-color: rgb(124, 56, 133);
   }
 
+  nav{
+
+    display: flex; /* Flexbox */
+    justify-content: center; /* centre the navbar contaning links*/
+  }
+
   .button {
     background-color: rgb(77, 46, 82);
     border: none;
     color: white;
-    width : 20%;
+    width : 10%;
     padding: 1% 2%;
     text-align: center;
     text-decoration: none;
@@ -28,7 +34,7 @@ html {
   .button:hover{
     /* transiton time taken from transition in .button CSS*/
     background-color: #4CAF50;
-    width : 25%;
+    width : 15%;
 
   }
 
