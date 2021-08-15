@@ -12,7 +12,9 @@ html {
 
     display: flex; /* Flexbox */
     justify-content: center; /* centre the navbar contaning links*/
+    flex-direction: row;
   }
+
 
   .button {
     background-color: rgb(77, 46, 82);
