@@ -48,7 +48,8 @@ html {
 
   ul li {
     color: blueviolet;
-    background: #d6d0d4;
+    background: #f7f3f5;
+    border-radius: 5px;
     width: 40%;
     margin: 5px;
     list-style-position: inside;
