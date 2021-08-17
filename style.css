@@ -48,16 +48,16 @@ html {
   }
 
   ul{
-    display: flex;
-    justify-content: center;/* To center the BOX DOES NOT CENTRE*/
-    flex-direction:column;
+    display: table;
+    margin: 0 auto;
+    width : 60%;
+    text-align: left;
   }
 
   ul li {
     color: rgb(255, 255, 255);
     background: rgb(37,37,48);
     border-radius: 5px;
-    width: 40%;
     margin: 5px;
     
     list-style-position: inside;
