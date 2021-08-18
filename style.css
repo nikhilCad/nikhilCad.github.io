@@ -1,87 +1,83 @@
 html {
-    scroll-behavior: smooth; /* For smooth scrolling when clicking the link buttons*/
-    
-  }
+  scroll-behavior: smooth; /* For smooth scrolling when clicking the link buttons*/
+  
+}
 
-  body{
-    color : rgb(229, 238, 241);
-    background-color: rgb(64,64,64);
-    text-align: center;
-    font-family: courier;
-  }
+body{
+  color : rgb(229, 238, 241);
+  background-color: rgb(64,64,64);
+  text-align: center;
+  font-family: courier;
+}
 
-  nav{
+nav{
+  
+  display: flex; /* Flexbox */
+  justify-content: center; /* centre the navbar contaning links*/
+  flex-direction: row;
+}
 
-    display: flex; /* Flexbox */
-    justify-content: center; /* centre the navbar contaning links*/
-    flex-direction: row;
-  }
 
+.button {
+  background-color: rgb(44, 44, 44);
+  border: none;
+  color: white;
+  width : 10%;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+  transition : background-color 0.5s, width 0.5s;
+  
+}
 
+.button:hover{
+  /* transiton time taken from transition in .button CSS*/
+  background-color: rgb(15,153,203);
+  width : 15%;
+  
+}
+@media (max-width: 480px) { /*If width less than 480px then*/
   .button {
-    background-color: rgb(44, 44, 44);
-    border: none;
-    color: white;
-    width : 10%;
-    padding: 1% 2%;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-
-    transition : background-color 0.5s, width 0.5s;
-
+    width : 20%;
   }
-
+  
   .button:hover{
     /* transiton time taken from transition in .button CSS*/
     background-color: rgb(15,153,203);
-    width : 15%;
-
+    width : 25%;
+    
   }
-  @media (max-width: 480px) { /*If width less than 480px then*/
-    .button {
-      width : 20%;
-    }
-
-    .button:hover{
-      /* transiton time taken from transition in .button CSS*/
-      background-color: rgb(15,153,203);
-      width : 25%;
   
-    }
-
-    ul{
-      width : 90%;
-      margin: 0;
-      text-align: right;
-    }
-  }
+  
+}
 
 
-  a{
-    /* Links */
-    color :rgb(15,153,203);
-  }
+a{
+  /* Links */
+  color :rgb(15,153,203);
+}
 
-  ul{
-    display: table;
-    margin: 0 auto;
-    width : 60%;
-    text-align: left;
-  }
+ul{
+  display: table;
+  margin: 0 auto;
+  width : 60%;
+  text-align: left;
+}
 
-  ul li {
-    color: rgb(255, 255, 255);
-    background: rgb(37,37,48);
-    border-radius: 5px;
-    margin: 5px;
-    
-    list-style-position: inside;
-    list-style-type: none;/*Hide bullet dots in links*/   
-    
-  }
+ul li {
+  color: rgb(255, 255, 255);
+  background: rgb(37,37,48);
+  border-radius: 5px;
+  margin: 5px;
+  
+  list-style-position: inside;
+  list-style-type: none;/*Hide bullet dots in links*/   
+  
+}
 
