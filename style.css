@@ -10,6 +10,12 @@ body{
   font-family: courier;
 }
 
+img { /* Crisp pixel art*/
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
 nav{
   
   display: flex; /* Flexbox */
