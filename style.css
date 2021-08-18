@@ -36,9 +36,16 @@ html {
 
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 480px) { /*If width less than 480px then*/
     .button {
       width : 20%;
+    }
+
+    .button:hover{
+      /* transiton time taken from transition in .button CSS*/
+      background-color: rgb(15,153,203);
+      width : 25%;
+  
     }
   }
 
