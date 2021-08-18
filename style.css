@@ -53,6 +53,12 @@ html {
       width : 25%;
   
     }
+
+    ul{
+      width : 90%;
+      margin: 0;
+      text-align: right;
+    }
   }
 
 
