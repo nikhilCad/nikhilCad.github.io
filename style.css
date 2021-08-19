@@ -86,7 +86,7 @@ ul li {
   border-radius: 5px;
   margin: 5px;
 
-  box-shadow: 10px 10px 20px grey;
+  box-shadow: 5px 5px 10px rgb(218, 216, 216);
   
   list-style-position: inside;
   list-style-type: none;/*Hide bullet dots in links*/   
