@@ -77,6 +77,7 @@ ul{
   margin: 0 auto;
   width : 60%;
   text-align: left;
+  
 }
 
 ul li {
@@ -84,9 +85,15 @@ ul li {
   background: rgb(37,37,48);
   border-radius: 5px;
   margin: 5px;
+
+  box-shadow: 10px 10px 20px grey;
   
   list-style-position: inside;
   list-style-type: none;/*Hide bullet dots in links*/   
   
+}
+
+ul li li{ /*Overwrite for list within list*/
+  box-shadow: 0px 0px 0px grey;
 }
 
