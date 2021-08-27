@@ -5,7 +5,8 @@ html {
 
 body{
   color : rgb(229, 238, 241);
-  background-color: rgb(64,64,64);
+  /*background-color: rgb(64,64,64);*/
+  background-image: linear-gradient(to right, #89253e, #3a6186 );
   text-align: center;
   font-family: courier;
 }
@@ -82,11 +83,12 @@ ul{
 
 ul li {
   color: rgb(255, 255, 255);
-  background: rgb(37,37,48);
+  /*background: rgb(37,37,48);*/
   border-radius: 5px;
   margin: 5px;
-
-  box-shadow: 5px 5px 10px rgb(218, 216, 216);
+  border-style: solid ;
+  border-width: thin;
+  /*box-shadow: 5px 5px 10px rgb(218, 216, 216);*/
   
   list-style-position: inside;
   list-style-type: none;/*Hide bullet dots in links*/   
@@ -95,5 +97,6 @@ ul li {
 
 ul li li{ /*Overwrite for list within list*/
   box-shadow: 0px 0px 0px grey;
+  border-style: none;
 }
 
