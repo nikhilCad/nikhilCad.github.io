@@ -6,10 +6,25 @@ html {
 body{
   color : rgb(229, 238, 241);
   /*background-color: rgb(64,64,64);*/
-  background-image: linear-gradient(to right, #89253e, #3a6186 );
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   text-align: center;
   font-family: courier;
 }
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
 
 img { /* Crisp pixel art*/
   image-rendering: pixelated;
