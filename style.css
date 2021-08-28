@@ -26,10 +26,12 @@ img { /* Crisp pixel art*/
   justify-content: center; /* centre the navbar contaning links*/
   flex-direction: row;
 
+  /* HIDE NAVBAR ON SCROLL but it does not work
   position: fixed;
   top: 0px;
   width: 100%;
   backdrop-filter: blur(10px); 
+  */
 }
 
 
