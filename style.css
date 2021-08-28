@@ -6,14 +6,12 @@ html {
 body{
   color : rgb(229, 238, 241);
   background-color: rgb(64,64,64); 
+  background-image: linear-gradient(-45deg, #308d5a, #14216d, #792e6c, #7c2d3e );
   text-align: center;
   font-family: courier;
 }
 
-#header{
-  background-image: linear-gradient(-45deg, #308d5a, #14216d, #792e6c, #7c2d3e );
-  /*background-size: 400% 400%;*/
-}
+
 
 
 img { /* Crisp pixel art*/
