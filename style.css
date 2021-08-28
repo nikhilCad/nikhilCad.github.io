@@ -20,15 +20,16 @@ img { /* Crisp pixel art*/
   image-rendering: crisp-edges;
 }
 
-nav{
+#nav{
   
   display: flex; /* Flexbox */
   justify-content: center; /* centre the navbar contaning links*/
   flex-direction: row;
-  
+
   position: fixed;
   top: 0px;
   width: 100%;
+  backdrop-filter: blur(10px); 
 }
 
 
