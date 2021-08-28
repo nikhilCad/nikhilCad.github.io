@@ -81,7 +81,7 @@ nav{
 
 a{
   /* Links */
-  color :rgb(15,153,203);
+  color :rgb(50, 241, 82);
 }
 
 
@@ -104,6 +104,7 @@ a{
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: rgb(95, 22, 179);
 }
 
 /* Add some padding inside the card container */
