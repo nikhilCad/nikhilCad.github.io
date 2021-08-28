@@ -9,6 +9,7 @@ body{
   background-image: linear-gradient(-45deg, #308d5a, #14216d, #792e6c, #7c2d3e );
   text-align: center;
   font-family: courier;
+  margin: 0; /*Fixes navbar extend to corner*/
 }
 
 
@@ -20,18 +21,18 @@ img { /* Crisp pixel art*/
   image-rendering: crisp-edges;
 }
 
-#nav{
-  
+nav{
+
   display: flex; /* Flexbox */
   justify-content: center; /* centre the navbar contaning links*/
   flex-direction: row;
 
-  /* HIDE NAVBAR ON SCROLL but it does not work
+
+  background-image: linear-gradient(-45deg, #792e6c, #7c2d3e );
   position: fixed;
   top: 0px;
-  width: 100%;
-  backdrop-filter: blur(10px); 
-  */
+  width: 100%; 
+
 }
 
 
