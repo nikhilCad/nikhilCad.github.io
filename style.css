@@ -25,6 +25,10 @@ nav{
   display: flex; /* Flexbox */
   justify-content: center; /* centre the navbar contaning links*/
   flex-direction: row;
+  
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 
