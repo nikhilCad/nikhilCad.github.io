@@ -37,8 +37,8 @@ nav{
 
 
 .button {
-  background-color: rgb(44, 44, 44);
-  border: none;
+  /*background-color: rgb(44, 44, 44);*/
+  border-style: solid;
   color: white;
   width : 10%;
   padding: 1% 2%;
