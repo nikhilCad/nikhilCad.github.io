@@ -41,13 +41,13 @@ nav{
   border-style: solid;
   color: white;
   width : 10%;
-  padding: 1% 2%;
+  padding: 1% 2% ;
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 2px 2px;
   cursor: pointer;
   
   transition : background-color 0.5s, width 0.5s;
