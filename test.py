@@ -9,6 +9,8 @@ if t>=1 and t<=100:
         inp = input().split()
 
         arr.append(inp)
+    
+    #Upto this is same in all codechef problems
 
     for i in arr:
         if len(i)==3:
