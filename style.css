@@ -127,5 +127,15 @@ a{
     width:100%!important;
     padding:0!important;/* !important makes it permannent and cant be override by child*/
     margin:0!important;
+    color : black!important;
   }
+    a{
+      color : blue;
+    }
+
+    a:after {
+      content: "("attr(href)")"; /* Actually writes links next to links
+      because you can not click on a paper :) */
+    }
+  
 }
