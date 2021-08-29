@@ -128,6 +128,7 @@ a{
     padding:0!important;/* !important makes it permannent and cant be override by child*/
     margin:0!important;
     color : black!important;
+    background-color: #fff;
   }
     a{
       color : blue;
@@ -136,6 +137,14 @@ a{
     a:after {
       content: "("attr(href)")"; /* Actually writes links next to links
       because you can not click on a paper :) */
+    }
+
+    .cards{
+      width : 100%;
+    }
+
+    .card{
+      box-shadow: none;
     }
   
 }
