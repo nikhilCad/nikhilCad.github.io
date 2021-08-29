@@ -115,3 +115,17 @@ a{
 .container {
   padding: 2px 16px;
 }
+
+
+/*Print*/
+@media print {
+  header, footer, aside, form, nav, … {
+      display: none;
+  }
+
+  body{
+    width:100%!important;
+    padding:0!important;/* !important makes it permannent and cant be override by child*/
+    margin:0!important;
+  }
+}
