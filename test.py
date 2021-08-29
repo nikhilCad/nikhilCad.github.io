@@ -1,34 +1,32 @@
 t = int(input())#test case
 
-if t>=1 and t<=288:
+arr=[]
 
-    arr=[]
+if t>=1 and t<=100:
 
-    for i in range(t): 
+    for i in range(t):
 
-        inptemp = input()
-        arr.append(inptemp)
+        inp = input().split()
 
-for inp in arr:
-    inp= inp.split()
-    if len(inp)==6:
+        arr.append(inp)
 
-        for i in inp:
-            if int(i)>=1 and int(i)<=4:
-                if inp[0]!=inp[1]:
-                    if inp[2]!=inp[3] and inp[3]!=inp[4] and inp[4]!=inp[5]:
-                        pass
-                    else:
-                        break
+    for i in arr:
+        if len(i)==3:
+            sa = int(i[0])
+            sb = int(i[1])
+            sc = int(i[2])
 
-        if inp[0] in [inp[2],inp[3]] and inp[1] in [inp[2],inp[3]]:
-            print(1)
-            continue
-        if inp[0] in [inp[4],inp[5]] and inp[1] in [inp[4],inp[5]]:
-            print(2)
-            continue
-        else:
-            print(0)
+            if sa>=1 and sb>=1 and sc>=1 and sa<=100 and sb<=100 and sc<=100:
+                if sa!=sb and sb!=sc and sc!=sa:
+
+                    if sa<sb and sa<sc:
+                        print("Draw")
+                    
+                    if sb<sa and sb<sc:
+                        print("Bob")
+
+                    if sc<sa and sc<sb:
+                        print("Alice")
 
 
                 
