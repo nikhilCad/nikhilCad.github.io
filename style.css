@@ -56,7 +56,7 @@ nav{
 
 .button:hover{
   /* transiton time taken from transition in .button CSS*/
-  background-color: rgb(15,153,203);
+  background-color: rgb(95, 22, 179);
   width : 15%;
   
 }
@@ -69,7 +69,6 @@ nav{
   
   .button:hover{
     /* transiton time taken from transition in .button CSS*/
-    background-color: rgb(15,153,203);
     width : 25%;
     
   }
