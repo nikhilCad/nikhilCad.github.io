@@ -139,3 +139,7 @@ a{
     }
   
 }
+
+@page { /* For printing*/
+  margin: 2cm;
+}
