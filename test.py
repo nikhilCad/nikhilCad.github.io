@@ -1,34 +1,49 @@
 t = int(input())#test case
 
-arr=[]
+a=[]
+b=[]
 
-if t>=1 and t<=100:
+output =[]
+if t>=1 and t<=64:
 
     for i in range(t):
 
         inp = input().split()
 
-        arr.append(inp)
-    
-    #Upto this is same in all codechef problems
+        a = inp
 
-    for i in arr:
-        if len(i)==3:
-            sa = int(i[0])
-            sb = int(i[1])
-            sc = int(i[2])
+        inp = input().split()
 
-            if sa>=1 and sb>=1 and sc>=1 and sa<=100 and sb<=100 and sc<=100:
-                if sa!=sb and sb!=sc and sc!=sa:
+        b = inp
 
-                    if sa<sb and sa<sc:
-                        print("Draw")
-                    
-                    if sb<sa and sb<sc:
-                        print("Bob")
+        for i in a:
+            if i not in ["0", "1"]:
+                continue
+        
+        for i in b:
+            if i not in ["0", "1"]:
+                continue
+        #Upto this is same in all codechef problems
 
-                    if sc<sa and sc<sb:
-                        print("Alice")
+        if len(a)==len(b)==3:
 
+            num1a = 0
+            num1b = 0
+
+            for i in range(len(a)):
+                
+                if a[i]=="1":
+                    num1a += 1
+                
+                if b[i]=="1":
+                    num1b += 1
+        
+            if num1a==num1b:
+                output.append("Pass")
+            else:
+                output.append("Fail")
+
+for i in output:
+    print(i)
 
                 
