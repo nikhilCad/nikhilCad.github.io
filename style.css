@@ -51,6 +51,10 @@ nav{
   cursor: pointer;
   
   transition : background-color 0.5s, width 0.5s;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   
 }
 
@@ -60,6 +64,7 @@ nav{
   width : 15%;
   
 }
+
 @media (max-width: 480px) { /*If width less than 480px then*/
 
 

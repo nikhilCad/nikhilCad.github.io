@@ -16,7 +16,7 @@ if t>=1 and t<=200:
 
             n = int(a[0])#number of participants
             k = int(a[1])#change with one drug
-            l = int(a[2])#Max drugs-1
+            l = int(a[2])#Max drugs -1 
 
             inp = input().split()
 
@@ -37,7 +37,7 @@ if t>=1 and t<=200:
 
                     muhspeed = int(b[len(b)-1])
 
-                    if l-1>0 and k>=0:
+                    if l-1>0 and k>0:
                         for i in range(l-1):
                             muhspeed += k
                     
