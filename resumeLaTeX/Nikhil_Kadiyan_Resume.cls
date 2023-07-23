@@ -19,7 +19,7 @@
 % Set main fonts
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={NoCommon, NoDiscretionary, NoHistoric, NoRequired, NoContextual}}
-\setmainfont[Color=primary, Path = fonts/lato/, BoldItalicFont=Lato-RegIta, BoldFont=Lato-Reg, ItalicFont=Lato-LigIta]{Lato-Lig}
+\setmainfont[Color=primary, Path = fonts/tinos/, BoldItalicFont=tinosbi, BoldFont=tinosb, ItalicFont=tinosi]{tinos}
 
 % Name command
 \newcommand{\namesection}[2]{
@@ -41,21 +41,21 @@
 
 % Headings command
 \titleformat{\section}{
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{12pt}{14pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\scshape\fontspec[Path = fonts/tinos/]{tinosb}\fontsize{12pt}{14pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
 % Subheadings command
 \titleformat{\subsection}{
-	\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{10pt}{12pt}\selectfont \bfseries
+	\fontspec[Path = fonts/tinos/]{tinosb}\fontsize{10pt}{12pt}\selectfont \bfseries
 }{}{0em}{}
 
 \newcommand{\position}[2]{
-	\fontspec[Path = fonts/lato/]{Lato-RegIta}\fontsize{10pt}{11.5pt}\selectfont
+	\fontspec[Path = fonts/tinos/]{tinosi}\fontsize{10pt}{11.5pt}\selectfont
 	\textit{\textbf{#1}} \normalfont \hfill #2 \\
 }
 
 % Other command
 \newcommand{\descript}[1]{
-    \raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}
+    \raggedright\scshape\fontspec[Path = fonts/tinos/]{tinosb}
     \fontsize{10pt}{12pt}\selectfont {} \normalfont
 }
 
