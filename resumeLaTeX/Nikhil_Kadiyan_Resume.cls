@@ -45,11 +45,11 @@
 
 % Subheadings command
 \titleformat{\subsection}{
-	\fontspec[Path = fonts/tinos/]{tinosb}\fontsize{10pt}{12pt}\selectfont \bfseries
+	\fontspec[Path = fonts/tinos/]{tinosb}\fontsize{12pt}{13pt}\selectfont \bfseries
 }{}{0em}{}
 
 \newcommand{\position}[2]{
-	\fontspec[Path = fonts/tinos/]{tinosi}\fontsize{10pt}{11.5pt}\selectfont
+	\fontspec[Path = fonts/tinos/]{tinosbi}\fontsize{12pt}{12.5pt}\selectfont
 	\textit{\textbf{#1}} \normalfont \hfill #2 \\
 }
 
