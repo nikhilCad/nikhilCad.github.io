@@ -45,7 +45,7 @@
 
 % Subheadings command
 \titleformat{\subsection}{
-	\fontspec[Path = fonts/garabond/]{EBGaramond-Bold}\fontsize{12.2pt}{12.2pt}\selectfont \bfseries
+	\fontspec[Path = fonts/garabond/]{EBGaramond-Bold}\fontsize{12pt}{12pt}\selectfont \bfseries
 }{}{0em}{}
 
 \newcommand{\position}[2]{
