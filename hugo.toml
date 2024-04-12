@@ -1,5 +1,0 @@
-baseURL = 'https://nikhilcad.github.io/'
-languageCode = 'en-us'
-title = 'Nikhil Kadiyan'
-theme='hugo-PaperMod'
-themesDir ='themes'
