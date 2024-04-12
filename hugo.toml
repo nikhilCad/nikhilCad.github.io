@@ -40,7 +40,7 @@ weight = 1
 
     [[languages.en.profileMode.buttons]]
     name = "Resume"
-    url = "abc"
+    url = "./resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
 
 [[languages.en.menu.main]]
 identifier = "About"
@@ -57,7 +57,7 @@ weight = 2
 [[languages.en.menu.main]]
 identifier = "Resume"
 name = "Resume"
-url = "resume.pdf"
+url = "./resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
 weight = 3
 
 [[languages.en.menu.main]]
