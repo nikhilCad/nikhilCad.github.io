@@ -40,7 +40,7 @@ weight = 1
 
     [[languages.en.profileMode.buttons]]
     name = "Resume"
-    url = "/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
+    url = "abc"
 
 [[languages.en.menu.main]]
 identifier = "About"
