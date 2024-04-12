@@ -40,7 +40,7 @@ weight = 1
 
     [[languages.en.profileMode.buttons]]
     name = "Resume"
-    url = "resume.pdf"
+    url = "/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
 
 [[languages.en.menu.main]]
 identifier = "About"
@@ -65,12 +65,6 @@ identifier = "Blog"
 name = "Blogs"
 url = "blog"
 weight = 4
-
-[[languages.en.menu.main]]
-identifier = "Search"
-name = "Search"
-url = "search"
-weight = 5
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
