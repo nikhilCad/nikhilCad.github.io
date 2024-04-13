@@ -1,7 +1,7 @@
 baseURL: "https://nikhilcad.github.io/"
 title: Nikhil
 paginate: 5
-theme: hugo-PaperMod
+theme: papermod
 
 enableRobotsTXT: true
 buildDrafts: false
