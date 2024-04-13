@@ -20,22 +20,27 @@ disableXML = true
 [permalinks]
 post = "/:title/"
 
-[profileMode]
-enabled = true
-title = "Nikhil Kadiyan"
-subtitle = "Welcome to my site!"
+[languages.en]
+languageName = "English"
+contentDir = "content/English"
+weight = 1
 
-[[profileMode.buttons]]
-name = "About"
-url = "about"
+  [languages.en.profileMode]
+  enabled = true
+  title = "Nikhil Kadiyan"
+  subtitle = "Welcome to my site!"
 
-[[profileMode.buttons]]
-name = "Project"
-url = "projects"
+      [[languages.en.profileMode.buttons]]
+      name = "About"
+      url = "about"
 
-[[profileMode.buttons]]
-name = "Resume"
-url = "./resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
+      [[languages.en.profileMode.buttons]]
+      name = "Project"
+      url = "projects"
+
+      [[languages.en.profileMode.buttons]]
+      name = "Resume"
+      url = "./resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
 
 [[menu.main]]
 identifier = "About"
