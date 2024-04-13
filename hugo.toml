@@ -20,11 +20,6 @@ disableXML = true
 [permalinks]
 post = "/:title/"
 
-[languages.en]
-languageName = "English"
-contentDir = "content/English"
-weight = 1
-
   [languages.en.profileMode]
   enabled = true
   title = "Nikhil Kadiyan"
