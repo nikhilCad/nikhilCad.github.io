@@ -1,13 +1,12 @@
 ---
-title: 'Hugo Site'
-date: 2024-04-14T18:52:03+05:30
+title: 'Real Time Chatroom'
 slug:
 tags: ["All"]
 category: blog 
 summary:
 description: 
 cover:
-  image:
+  image: "real-time-chatroom.png"
   alt:
   caption: 
   relative: true
