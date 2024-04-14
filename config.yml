@@ -1,5 +1,5 @@
 baseURL: "https://nikhilcad.github.io/"
-title: Nikhil
+title: Nikhil Kadiyan
 paginate: 5
 theme: papermod
 
@@ -56,10 +56,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: Nikhil Kadiyan
+    subtitle: "React developer exploring backend and Java"
+    imageUrl: "images/self.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Nikhil Kadiyan"
-    Content: Welcome to my site
+    Content: React developer exploring backend and Java
 
   socialIcons:
     - name: github
