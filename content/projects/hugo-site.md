@@ -13,8 +13,6 @@ cover:
   relative: true
 showtoc: true
 draft: false
-ShowReadingTime: false
-ShowWordCount: false
 hideAuthor: true
 ---
 
