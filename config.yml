@@ -56,7 +56,8 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Nikhil Kadiyan
-    subtitle: "React developer exploring backend and Java"
+    subtitle: "Hi there, I am Nikhil Kadiyan. Currently a final year student at National Institute of Technology, Delhi.
+    I am working as an intern in Thoughtspot in the data modelling team, delivering bug fixes and the new feature of sort and filter in a key part of the product."
     imageUrl: "images/self_portrait.jpeg"
     imageWidth: 120
     imageHeight: 120
