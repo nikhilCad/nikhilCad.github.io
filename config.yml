@@ -64,8 +64,6 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Blog
-        url: blog
       - name: Resume
         url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
 
@@ -111,18 +109,26 @@ menu:
       name: Home
       url: /
       weight: 10
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 20
+      weight: 40
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 50
     - identifier: resume
       name: Resume
       url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf/
-      weight: 40
+      weight: 60
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

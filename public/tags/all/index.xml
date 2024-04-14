@@ -20,5 +20,12 @@
       <guid>http://localhost:1313/blog/hugo-site/</guid>
       <description>Remade a basic skeleton of my portfolio using Hugo</description>
     </item>
+    <item>
+      <title>Hugo Site</title>
+      <link>http://localhost:1313/projects/hugo-site/</link>
+      <pubDate>Sun, 14 Apr 2024 18:52:03 +0530</pubDate>
+      <guid>http://localhost:1313/projects/hugo-site/</guid>
+      <description>Remade a basic skeleton of my portfolio using Hugo</description>
+    </item>
   </channel>
 </rss>
