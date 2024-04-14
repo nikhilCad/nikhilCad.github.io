@@ -84,6 +84,13 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
+
+  {{- if (.Param "showCompany") }}
+  <div class="entry-content">
+    <p>{{ .Param "description" | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
