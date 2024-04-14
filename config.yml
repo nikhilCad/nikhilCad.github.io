@@ -115,9 +115,9 @@ menu:
       name: Blog
       url: /blog/
       weight: 20
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags/
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 30
     - identifier: resume
       name: Resume

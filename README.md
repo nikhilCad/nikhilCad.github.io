@@ -1,7 +1,3 @@
-My website! Hey!! VS Code is great just remember to change setting to push commits! Okay. Thanks.
-push commits!
-Made my website!!!!
+To add new blog
 
-TO check website DON'T COMMIT AND THEN OPEN THE WEBSITE.
-Instead, use Go Live button at bottom of VSCode(using extension Live Server)
-edit
+hugo new content blog/blog-name.md

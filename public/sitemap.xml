@@ -2,17 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2022-04-08T23:15:00+07:00</lastmod>
+    <loc>http://localhost:1313/tags/all/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/how-to-master-streamlit-for-data-science/</loc>
-    <lastmod>2022-04-08T23:15:00+07:00</lastmod>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/hugo-site/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-04-08T23:15:00+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
