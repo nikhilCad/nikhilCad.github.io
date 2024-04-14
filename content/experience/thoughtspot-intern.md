@@ -1,6 +1,6 @@
 ---
 title: "Engineering Intern"
-description: "Thoughtspot India | Hyderabad, India"
+description: "Thoughtspot | Hyderabad, India"
 dateString: Jun-July 2023,  Jan 2024 - Present
 draft: false
 tags: ["React", "Typescript", "GraphQL", "Playwright", "Jest"]

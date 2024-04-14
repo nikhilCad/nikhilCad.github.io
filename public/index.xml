@@ -18,14 +18,15 @@
       <link>http://localhost:1313/experience/thoughtspot-intern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/thoughtspot-intern/</guid>
-      <description>Thoughtspot India | Hyderabad, India</description>
+      <description>Thoughtspot | Hyderabad, India</description>
     </item>
     <item>
-      <title>Experiences with Hugo</title>
+      <title>Moving over to Hugo</title>
       <link>http://localhost:1313/blog/hugo-site/</link>
       <pubDate>Sun, 14 Apr 2024 18:52:03 +0530</pubDate>
       <guid>http://localhost:1313/blog/hugo-site/</guid>
-      <description>Remade a basic skeleton of my portfolio using Hugo</description>
+      <description>A previous version of my portfolio was created using good old HTML and CSS, however editing that was turning out to be a chore. A wise man once said, do not reinvent the wheel, so I looked into the world of static site generators.
+Stumbling upon Hugo, I saw that it already had a plethora of good themes. A quick scroll through the page and I finnaly settled on the amazing papermod theme at https://github.</description>
     </item>
     <item>
       <title>Real Time Chatroom</title>
