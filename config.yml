@@ -114,10 +114,6 @@ menu:
       name: Tags
       url: /tags/
       weight: 50
-    - identifier: resume
-      name: Resume
-      url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf/
-      weight: 60
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
