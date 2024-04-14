@@ -18,7 +18,7 @@ hideAuthor: true
 
 A previous version of my portfolio was created using good old HTML and CSS, however editing that was turning out to be a chore. A wise man once said, **do not** reinvent the wheel, so I looked into the world of static site generators.
 
-Stumbling upon Hugo, I saw that it already had a plethora of good themes. A quick scroll through the page and I finnaly settled on the amazing papermod theme at https://github.com/adityatelange/hugo-PaperMod
+Stumbling upon Hugo, I saw that it already had a plethora of good themes. A quick scroll through the page and I finally settled on the amazing papermod theme at https://github.com/adityatelange/hugo-PaperMod
 
 After some struggles figuring how hugo works, I have finally found a sweet spot where I can easily edit this portfolio without dealing with all the headaches of maintaining the CSS and styles and everything by myself.
 
