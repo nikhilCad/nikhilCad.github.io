@@ -64,7 +64,7 @@ params:
     imageTitle: my image
     buttons:
       - name: Resume
-        url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
+        url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf #image should be square
 
   # home-info mode
   homeInfoParams:
