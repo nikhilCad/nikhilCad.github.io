@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zustand on Nikhil Kadiyan</title>
+    <link>http://localhost:1313/tags/zustand/</link>
+    <description>Recent content in Zustand on Nikhil Kadiyan</description>
+    <image>
+      <title>Nikhil Kadiyan</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/zustand/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Photogram</title>
+      <link>http://localhost:1313/projects/photogram/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/photogram/</guid>
+      <description> Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase Implemented post, comments, home page and suggested users functionality for enhanced user engagement Developed responsive UI using React, utilizing ChakraUI for common UI elements Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend </description>
+    </item>
+  </channel>
+</rss>

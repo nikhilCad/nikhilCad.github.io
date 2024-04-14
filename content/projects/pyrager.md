@@ -2,12 +2,12 @@
 title: 'Pyrager'
 date: 2020-08-04
 slug:
-tags: ["All"]
+tags: ["Python", "Tkinter"]
 category: blog 
 summary:
 description: 
 cover:
-  image: "/images/pyrager.png"
+  image: "/images/projects/pyrager.png"
   alt:
   caption: 
   relative: true

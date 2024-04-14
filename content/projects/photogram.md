@@ -2,12 +2,12 @@
 title: 'Photogram'
 date: 2024-01-28
 slug:
-tags: ["All"]
+tags: ["React", "ChakraUI", "Zustand", "Clone", "Axios", "Firebase"]
 category: blog 
 summary:
 description: 
 cover:
-  image: "/images/photogram.png"
+  image: "/images/projects/photogram.png"
   alt:
   caption: 
   relative: true

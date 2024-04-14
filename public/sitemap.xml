@@ -4,13 +4,16 @@
   <url>
     <loc>http://localhost:1313/experience/thoughtspot-intern/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/all/</loc>
-    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/hugo-site/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github/</loc>
+    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -19,19 +22,61 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/axios/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/clone/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nextjs/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/postgresql/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/prisma/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/react/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/real-time-chatroom/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/tailwindcss/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/chakraui/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/firebase/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/photogram/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zustand/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/beautiful-soup/</loc>
+    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pysimplegui/</loc>
+    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/python-news-reader/</loc>
     <lastmod>2022-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/pyrager/</loc>
+    <lastmod>2020-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tkinter/</loc>
     <lastmod>2020-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -43,8 +88,6 @@
     <loc>http://localhost:1313/tags/jest/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/playwright/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/typescript/</loc>
   </url>

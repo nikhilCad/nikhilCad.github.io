@@ -21,7 +21,7 @@
       <description>Thoughtspot India | Hyderabad, India</description>
     </item>
     <item>
-      <title>Hugo Site</title>
+      <title>Experiences with Hugo</title>
       <link>http://localhost:1313/blog/hugo-site/</link>
       <pubDate>Sun, 14 Apr 2024 18:52:03 +0530</pubDate>
       <guid>http://localhost:1313/blog/hugo-site/</guid>
@@ -32,7 +32,7 @@
       <link>http://localhost:1313/projects/real-time-chatroom/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/real-time-chatroom/</guid>
-      <description> Implemented a Real TimeChatroomwithNext.js for seamless server side rendering, and Clerk for authentication Enhanced styling consistency through the application of styles with TailwindCSS Integrated UploadThing as a robust big data server, supporting file uploads up to 2GB Ensured effective CRUD operations and server communication using the promise-based HTTP library Axios Facilitated real-time bidirectional communication across platforms using SocketIO </description>
+      <description> Implemented a Real Time Chatroom with Next.js for seamless server side rendering, and Clerk for authentication Enhanced styling consistency through the application of styles with TailwindCSS Integrated UploadThing as a robust big data server, supporting file uploads up to 2GB Ensured effective CRUD operations and server communication using the promise-based HTTP library Axios Facilitated real-time bidirectional communication across platforms using SocketIO </description>
     </item>
     <item>
       <title>Photogram</title>
@@ -46,7 +46,7 @@
       <link>http://localhost:1313/projects/python-news-reader/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/python-news-reader/</guid>
-      <description> Created a NewsReaderAppusing Python Provided a way to subscribe user’s sources using RSS feeds available at preferred website Use beautifulsoup library to parse the website content with selectors </description>
+      <description> Created a NewsReader App using Python Provided a way to subscribe user’s sources using RSS feeds available at preferred website Use beautifulsoup library to parse the website content with selectors </description>
     </item>
     <item>
       <title>Pyrager</title>

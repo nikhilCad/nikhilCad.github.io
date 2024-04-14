@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tkinter on Nikhil Kadiyan</title>
+    <link>http://localhost:1313/tags/tkinter/</link>
+    <description>Recent content in Tkinter on Nikhil Kadiyan</description>
+    <image>
+      <title>Nikhil Kadiyan</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tkinter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pyrager</title>
+      <link>http://localhost:1313/projects/pyrager/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pyrager/</guid>
+      <description> Game made in Python using the tkinter module as a school project Can move using keyboard keys to move. Basic collision detection using arrays Saving and loading using Python and text files CONTROLS:
+W/A/S/D or Up/Left/Down/Right arrow keys to move Mouse Click to plant seeds, harvest etc. Escape key to escape to Main Menu INSTRUCTIONS:
+Open pyRager/pyRager.py (needs Python 3.7) Go to market at bottom left to buy some seeds : Cost $1(in game money) Click on green land to make a farm plot Click again to plant seed(if available) Wait 10 seconds for seeds to grow to plant Click to harvest plant Go to market, Sell plant for $2 Buy seeds again Buy banks </description>
+    </item>
+  </channel>
+</rss>

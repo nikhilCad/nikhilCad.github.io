@@ -1,8 +1,8 @@
 ---
-title: 'Hugo Site'
+title: 'Experiences with Hugo'
 date: 2024-04-14T18:52:03+05:30
 slug:
-tags: ["All"]
+tags: ["Hugo", "Github"]
 category: blog 
 summary:
 description: 

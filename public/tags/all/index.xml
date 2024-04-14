@@ -11,44 +11,6 @@
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Apr 2024 18:52:03 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/all/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo Site</title>
-      <link>http://localhost:1313/blog/hugo-site/</link>
-      <pubDate>Sun, 14 Apr 2024 18:52:03 +0530</pubDate>
-      <guid>http://localhost:1313/blog/hugo-site/</guid>
-      <description>Remade a basic skeleton of my portfolio using Hugo</description>
-    </item>
-    <item>
-      <title>Real Time Chatroom</title>
-      <link>http://localhost:1313/projects/real-time-chatroom/</link>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/real-time-chatroom/</guid>
-      <description> Implemented a Real TimeChatroomwithNext.js for seamless server side rendering, and Clerk for authentication Enhanced styling consistency through the application of styles with TailwindCSS Integrated UploadThing as a robust big data server, supporting file uploads up to 2GB Ensured effective CRUD operations and server communication using the promise-based HTTP library Axios Facilitated real-time bidirectional communication across platforms using SocketIO </description>
-    </item>
-    <item>
-      <title>Photogram</title>
-      <link>http://localhost:1313/projects/photogram/</link>
-      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/photogram/</guid>
-      <description> Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase Implemented post, comments, home page and suggested users functionality for enhanced user engagement Developed responsive UI using React, utilizing ChakraUI for common UI elements Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend </description>
-    </item>
-    <item>
-      <title>Python News Reader</title>
-      <link>http://localhost:1313/projects/python-news-reader/</link>
-      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/python-news-reader/</guid>
-      <description> Created a NewsReaderAppusing Python Provided a way to subscribe user’s sources using RSS feeds available at preferred website Use beautifulsoup library to parse the website content with selectors </description>
-    </item>
-    <item>
-      <title>Pyrager</title>
-      <link>http://localhost:1313/projects/pyrager/</link>
-      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pyrager/</guid>
-      <description> Game made in Python using the tkinter module as a school project Can move using keyboard keys to move. Basic collision detection using arrays Saving and loading using Python and text files CONTROLS:
-W/A/S/D or Up/Left/Down/Right arrow keys to move Mouse Click to plant seeds, harvest etc. Escape key to escape to Main Menu INSTRUCTIONS:
-Open pyRager/pyRager.py (needs Python 3.7) Go to market at bottom left to buy some seeds : Cost $1(in game money) Click on green land to make a farm plot Click again to plant seed(if available) Wait 10 seconds for seeds to grow to plant Click to harvest plant Go to market, Sell plant for $2 Buy seeds again Buy banks </description>
-    </item>
   </channel>
 </rss>
