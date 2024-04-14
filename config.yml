@@ -58,13 +58,13 @@ params:
     title: Nikhil Kadiyan
     subtitle: "Hi there, I am Nikhil Kadiyan. Currently a final year student at National Institute of Technology, Delhi.
     I am working as an intern in Thoughtspot in the data modelling team, delivering bug fixes and new features like sort and filter in a key part of the product."
-    imageUrl: "images/self_portrait.jpeg"
+    imageUrl: "images/self_portrait.jpeg" #image should be square
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Resume
-        url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf #image should be square
+        url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
 
   # home-info mode
   homeInfoParams:
