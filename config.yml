@@ -59,15 +59,15 @@ params:
     enabled: true # needs to be explicitly set
     title: Nikhil Kadiyan
     subtitle: "React developer exploring backend and Java"
-    imageUrl: "images/self.jpeg"
+    imageUrl: "images/self_portrait.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: Blog
+        url: blog
+      - name: Resume
+        url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
 
   # home-info mode
   homeInfoParams:
@@ -83,8 +83,6 @@ params:
       url: "https://codeforces.com/profile/nikhilcad"
     - name: leetcode
       url: "https://leetcode.com/anidnottaken/"
-    - name: cv
-      url: "/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -109,18 +107,23 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: home
+      name: Home
+      url: /
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: blog
+      name: Blog
+      url: /blog/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: tags
+      name: Tags
+      url: /tags/
       weight: 30
+    - identifier: resume
+      name: Resume
+      url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf/
+      weight: 40
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
