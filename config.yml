@@ -63,7 +63,7 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Resume
+      - name: "My Resume"
         url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
 
   # home-info mode
