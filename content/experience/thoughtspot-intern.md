@@ -21,5 +21,5 @@ June - July 2023
 
 Jan 2024 - Present
 
-- Shipped Filter and Sort feature for worksheet along with one team member, increasing efficiency for analyst users by 20%
-- Fixed 10+ bugs in the existing code on a priority basis for the customer, cherry picking must fixes to already released software
+- Shipped Filter and Sort feature for worksheet tables and columns along with one team member. Collaborated with the backend team to add new parameters in existing API to include tags, authors and database info to sort the tables.  Increased efficiency for analyst users by 20%.
+- Resolved high priority bugs in the existing code on a priority basis for the customer, with average time of 1-2 days to merge the changes into master. Cherry picked must fixes to already released software, added retroactively to older versions of product.
