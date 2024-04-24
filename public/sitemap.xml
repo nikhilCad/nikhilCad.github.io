@@ -5,7 +5,19 @@
     <loc>http://localhost:1313/experience/thoughtspot-intern/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
+    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/codeforces/</loc>
+    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/codeforces-template/</loc>
+    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2024-04-14T18:52:03+05:30</lastmod>
@@ -14,12 +26,6 @@
     <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/hugo-site/</loc>
-    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-14T18:52:03+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-14T18:52:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/axios/</loc>
