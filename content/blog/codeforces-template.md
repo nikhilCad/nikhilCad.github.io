@@ -1,5 +1,5 @@
 ---
-title: 'How I made C++ readable to type in Competitive programming'
+title: 'How I made C++ readable in Competitive programming'
 date: 2024-04-24T23:58:56+05:30
 slug:
 tags: ["Codeforces"]
