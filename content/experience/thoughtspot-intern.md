@@ -25,3 +25,6 @@ Jan 2024 - Jun 2024
 - Implemented Knowledge Cards that tell users info about a selected table including database. schema, author etc. Made API calls to the backend.
 - Migrated schema viewer from Angular to React by creating new React components and making graphQL calls to the backend. Also helped to solve various design issues in old UI during migration.
 - Resolved high priority bugs in the existing code on a priority basis for the customer, with average time of 1-2 days to merge the changes into master. Cherry picked must fixes to already released software, added retroactively to older versions of product.
+
+Jul 2024 - Present
+- Currently I am working under growth team to ensure stability of the product homepage
