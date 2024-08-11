@@ -49,7 +49,7 @@
 }{}{0em}{}
 
 \newcommand{\position}[2]{
-	\fontspec[Path = fonts/garabond/]{EBGaramond-SemiBoldItalic}\fontsize{11pt}{11pt}\selectfont
+	\fontspec[Path = fonts/garabond/]{EBGaramond-SemiBoldItalic}\fontsize{11.5pt}{11.5pt}\selectfont
 	\textit{\textbf{#1}} \normalfont \hfill #2 \\
 }
 
