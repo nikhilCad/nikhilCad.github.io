@@ -11,6 +11,7 @@ jobs:
         with:
           root_file: Nikhil_Kadiyan_Resume.tex
           working_directory: static/resumeLaTeX/
+          latexmk_use_xelatex: true
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
