@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: Nikhil_Kadiyan_Resume.tex
           latexmk_use_xelatex: true
@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir out
           cp ./Nikhil_Kadiyan_Resume.pdf ./out/Nikhil_Kadiyan_Resume.pdf
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: Nikhil_Kadiyan_Resume
           path: out/Nikhil_Kadiyan_Resume.pdf
