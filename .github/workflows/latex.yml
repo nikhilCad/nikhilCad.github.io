@@ -1,25 +1,17 @@
 name: Build LaTeX document
-
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-
+on: [push]
 jobs:
-  build:
+  build_latex:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up LaTeX environment
-      uses: xu-cheng/latex-action@v3
-      with:
-        latexmk: false  # Don't use latexmk, we will run xelatex directly
-        packages: texlive-xetex # Install xelatex specifically
-
-    - name: Compile LaTeX document with XeLaTeX
-      run: |
-        xelatex -interaction=nonstopmode static/resumeLaTeX/Nikhil_Kadiyan_Resume.tex
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: static/resumeLaTeX/Nikhil_Kadiyan_Resume.tex
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: static/resumeLaTeX/Nikhil_Kadiyan_Resume-test.pdf
