@@ -4,8 +4,9 @@ name: Compile Latex and Release PDF
 
 on:
   push:
-    tags:
-      - '*.*.*'
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
     
 jobs:
   build_latex:
@@ -17,7 +18,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: Nikhil_Kadiyan_Resume.tex
-
+          latexmk_use_xelatex: true
+          
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
