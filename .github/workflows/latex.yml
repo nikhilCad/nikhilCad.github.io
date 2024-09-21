@@ -19,6 +19,7 @@ jobs:
         with:
           root_file: Nikhil_Kadiyan_Resume.tex
           working_directory: static/resumeLaTeX/
+          latexmk_use_xelatex: true
       - name: Copy
         run: |
           mkdir out
