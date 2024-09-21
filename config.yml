@@ -64,7 +64,7 @@ params:
     imageTitle: my image
     buttons:
       - name: "My Resume"
-        url: /resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
+        url: /Nikhil_Kadiyan_Resume.pdf
 
   # home-info mode
   homeInfoParams:
@@ -81,7 +81,7 @@ params:
     - name: leetcode
       url: "https://leetcode.com/anidnottaken/"
     - name: cv
-      url: "https://nikhilcad.github.io/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
+      url: "https://nikhilcad.github.io/Nikhil_Kadiyan_Resume.pdf"
 
   # for search
   # https://fusejs.io/api/options.html

@@ -1,30 +1,41 @@
-name: Deploy PDF
+
+name: Compile Latex and Release PDF  
+
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-  workflow_dispatch:
-
+    tags:
+      - '*.*.*'
+    
 jobs:
-  build:
+  build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Set up Git repository
         uses: actions/checkout@v2
-      - name: Build
-        uses: xu-cheng/latex-action@v3
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
         with:
           root_file: Nikhil_Kadiyan_Resume.tex
-          working_directory: static/resumeLaTeX/
-          latexmk_use_xelatex: true
-      - name: Copy
-        run: |
-          mkdir out
-          cp ./Nikhil_Kadiyan_Resume.pdf ./out/Nikhil_Kadiyan_Resume.pdf
-      - uses: actions/upload-artifact@v4
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: Nikhil_Kadiyan_Resume
-          path: static/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_path: ./Nikhil_Kadiyan_Resume.pdf
+          asset_name: Nikhil_Kadiyan_Resume.pdf
+          asset_content_type: pdf
