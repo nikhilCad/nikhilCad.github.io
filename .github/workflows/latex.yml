@@ -13,7 +13,7 @@ jobs:
           working_directory: static/resumeLaTeX/
           latexmk_use_xelatex: true
       - name: Upload PDF file
-        uses: actions/softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v2
         with:
           name: PDF
           path: static/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf
