@@ -50,11 +50,18 @@
 
 \subsection{ThoughtSpot India Pvt Ltd \hfill \normalfont Hyderabad, On-Site}
 
-\position{Member of Technical Staff | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Present}
-\pt Achieved a 90\% decrease in page load times by migrating the impressions database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
+% Munshi -reduced load times -worked on trending
 % MunshiV2 reduced time from 40 seconds to 2-3 seconds - db schema - instead of individual lookup we made it a single table
 %ie previously it looked up all users who have viewed, now we made new table that had all the views
-\pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
+% fixed many homepage bugs related to share api - discoverability unchecked, rate limit
+% Wrote MANY E2Es to increase test coverage
+%Added mixpanel events, fixed many mixpanel bugs firing at wrong time, fixed  mixpanel wrong display name
+% Worked on share feature rate limit using Redis cache
+% Fixed Apple security issues of removign cronJobExpression from sessioninfo
+\position{Member of Technical Staff | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Present}
+\pt Achieved a 90\% decrease in page load times by migrating the impressions database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
+\pt Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
+% \pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
 % COMS is multi tenant, buzzwords - AWS - Migrating to GCP to ave costs as package deal
 \sectionsep
 
