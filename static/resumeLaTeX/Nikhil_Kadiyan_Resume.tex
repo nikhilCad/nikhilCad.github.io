@@ -56,15 +56,31 @@
 % taken? - Using tarcevault using the trace id of the request
 % fixed many homepage bugs related to share api - discoverability unchecked, rate limit
 % Wrote MANY E2Es to increase test coverage
-%Added mixpanel events, fixed many mixpanel bugs firing at wrong time, fixed  mixpanel wrong display name
+% Added mixpanel events, fixed many mixpanel bugs firing at wrong time, fixed  mixpanel wrong display name
 % Worked on share feature rate limit using Redis cache
 % Fixed Apple security issues of removign cronJobExpression from sessioninfo
+% To add - Edge onboarding
+% Mid Year Review Jul24-Jan25 ThoughtSpot
+% Epics
+%  Accessibility - Worked on accessibility improvements for Growth components, asked by Bank of America, significant progress in enhancing accessibility features to ensure compliance and inclusivity.
+%  Edge Onboarding (ongoing) - Creating a new onboarding flow which introduces Spotter and TSA to a first time free trial user of Thoughtspot.
+%  Protractor to Playwright - Migrated protractor tests related to share and data access scenarios
+%  Spotter Public API test cases - Wrote API test cases that check response for Spotter Public API
+% Security
+%  Implemented share limit in share feature using Redis
+%  Apple security - Removed sensitive data from session info
+% Others
+%  Mode intercom - Added backend changes for Mode intercom
+%  Mixpanel MTUs - Reduced Mixpanel MTUs in testing project 700k to 10k weekly users by identifying cases where Mixpanel should not be enabled
+%  Only showing tags which user has access to ( Previously all tags were shown) 
+%  Bug fixing / ops
 \position{Member of Technical Staff | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Present}
-\pt Achieved a 90\% decrease in page load times by migrating the impressions database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
+\pt Achieved a 90\% decrease in page load times by migrating the impressions Cassandra database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
 \pt Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
 \pt Debugged a Mixpanel issue that led to excessive event firing during testing, causing high costs. Reduced the events from 20 million to 300k, with the remaining events being from dev clusters used by customers, ahead of a contract renewal.\\
 % \pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
 % COMS is multi tenant, buzzwords - AWS - Migrating to GCP to ave costs as package deal
+% \pt Implemented a rate limiter for share API using Redis
 \sectionsep
 
 \position{Software Engineering Intern | React, Typescript, Playwright, Jest}{Jan '24 - Jun `24}
@@ -185,10 +201,10 @@
 \section{Skills} 
 \hrulefill
 
-\pt \textbf{Languages:} Python, C++, Java, Go, SQL, TypeScript \\
+\pt \textbf{Languages:} Java, Go, TypeScript, SQL, Python, C++  \\
 \pt \textbf{Frameworks:} ReactJS, Jest, Playwright, NextJS, NodeJS, Angular, Flask\\
 \pt \textbf{Developer Tools:}  Git, Heroku, Vercel, Firebase, LaTex, VSCode, IntelliJ\\
-\pt \textbf{Libraries:} Prisma, Pandas, Geopandas, ChakraUI Bootstrap, rayLib, Godot\\
+\pt \textbf{Libraries:} Prisma, Pandas, Geopandas, ChakraUI, Bootstrap, rayLib, Godot\\
 
 \sectionsep
 
