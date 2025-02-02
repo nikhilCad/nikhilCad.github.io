@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.124.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Apr 2024 23:58:56 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/codeforces/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <link>http://localhost:1313/blog/codeforces-template/</link>
       <pubDate>Wed, 24 Apr 2024 23:58:56 +0530</pubDate>
       <guid>http://localhost:1313/blog/codeforces-template/</guid>
-      <description>So I have started my competitive programming journey using Python instead of C++. And it was great! The one thing that I love the most about Python is how easily readable the code is. There are some great keywords like in and the beloved for i in range(start,end,step) whose value I did not realize until I started using C++. You start to appreciate the simplicity of print after writing your 5th &amp;lt;&amp;lt; in cout</description>
+      <description>&lt;p&gt;So I have started my competitive programming journey using Python instead of C++. And it was great! The one thing that I love the most about Python is how easily readable the code is. There are some great keywords like &lt;code&gt;in&lt;/code&gt; and the beloved &lt;code&gt;for i in range(start,end,step)&lt;/code&gt; whose value I did not realize until I started using C++. You start to appreciate the simplicity of &lt;code&gt;print&lt;/code&gt; after writing your 5th &lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt; in &lt;code&gt;cout&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

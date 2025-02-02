@@ -19,8 +19,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Nikhil Kadiyan}{
     % xxx-xxx-xxxx -> Phone Number
-	\normalfont {\faMapMarker }Hyderabad, India \hfill {\faAt } \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill {\faPhone* } +91 8800475087 \hfill {\faGlobe } \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill {\faLinkedin } \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{nikhilcad} \hfill {\faGithub } \href{https://github.com/nikhilcad}{nikhilcad}
-}
+	% \normalfont Hyderabad, India \hfill \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill +91 8800475087 \hfill \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{LinkedIn:nikhilcad} \hfill \href{https://github.com/nikhilcad}{Github:nikhilcad}
+	{\faMapMarker }Hyderabad, India \hfill {\faAt } \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill {\faPhone* } +91 8800475087 \hfill {\faGlobe } \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill {\faLinkedin } \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{nikhilcad} \hfill {\faGithub } \href{https://github.com/nikhilcad}{nikhilcad}
+	}
 
 \descript{}
 
@@ -30,7 +31,7 @@
 \section{Education}
 \hrulefill
 
-\subsection{National Institue of Technology Delhi \hfill \normalfont 2020-24}
+\subsection{National Institute of Technology Delhi \hfill \normalfont 2020-24}
 \projectposition{Bachelor of Technology (CGPA: 8.44) \normalfont}{ }
 
 \sectionsep
@@ -49,12 +50,37 @@
 
 \subsection{ThoughtSpot India Pvt Ltd \hfill \normalfont Hyderabad, On-Site}
 
-\position{Member of Technical Staff | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Present}
-\pt Achieved a 90\% decrease in page load times by migrating the impressions database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
+% Munshi -reduced load times -worked on trending
 % MunshiV2 reduced time from 40 seconds to 2-3 seconds - db schema - instead of individual lookup we made it a single table
-%ie previously it looked up all users who have viewed, now we made new table that had all the views
-\pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of a Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
+%ie previously it looked up all users who have viewed, now we made new table that had all the views - How we checked time
+% taken? - Using tarcevault using the trace id of the request
+% fixed many homepage bugs related to share api - discoverability unchecked, rate limit
+% Wrote MANY E2Es to increase test coverage
+% Added mixpanel events, fixed many mixpanel bugs firing at wrong time, fixed  mixpanel wrong display name
+% Worked on share feature rate limit using Redis cache
+% Fixed Apple security issues of removign cronJobExpression from sessioninfo
+% To add - Edge onboarding
+% Mid Year Review Jul24-Jan25 ThoughtSpot
+% Epics
+%  Accessibility - Worked on accessibility improvements for Growth components, asked by Bank of America, significant progress in enhancing accessibility features to ensure compliance and inclusivity.
+%  Edge Onboarding (ongoing) - Creating a new onboarding flow which introduces Spotter and TSA to a first time free trial user of Thoughtspot.
+%  Protractor to Playwright - Migrated protractor tests related to share and data access scenarios
+%  Spotter Public API test cases - Wrote API test cases that check response for Spotter Public API
+% Security
+%  Implemented share limit in share feature using Redis
+%  Apple security - Removed sensitive data from session info
+% Others
+%  Mode intercom - Added backend changes for Mode intercom
+%  Mixpanel MTUs - Reduced Mixpanel MTUs in testing project 700k to 10k weekly users by identifying cases where Mixpanel should not be enabled
+%  Only showing tags which user has access to ( Previously all tags were shown) 
+%  Bug fixing / ops
+\position{Member of Technical Staff | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Present}
+\pt Achieved a 90\% decrease in page load times by migrating the impressions Cassandra database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
+\pt Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
+\pt Debugged a Mixpanel issue that led to excessive event firing during testing, causing high costs. Reduced the events from 20 million to 300k, with the remaining events being from dev clusters used by customers, ahead of a contract renewal.\\
+% \pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
 % COMS is multi tenant, buzzwords - AWS - Migrating to GCP to ave costs as package deal
+% \pt Implemented a rate limiter for share API using Redis
 \sectionsep
 
 \position{Software Engineering Intern | React, Typescript, Playwright, Jest}{Jan '24 - Jun `24}
@@ -112,25 +138,27 @@
 % \pt Updated data to a \textbf{MongoDB} database for robust and scalable data storage and retrieval.\\
 % \sectionsep
 
-\projectposition{Golang Terminal News Reader \href{https://github.com/nikhilCad/go-news-reader}{[Code]}}{}
-\pt Created a terminal news reader in \textbf{Golang} using \textbf{Bubbletea}, for easy navigation of parsed news and YouTube feeds.\\
-\pt Integrated \textbf{SQLite} for efficient storage and retrieval of feeds, optimizing data management within the terminal. \\
-\pt Implemented content fetching from the URL to \textbf{parse} and display full article text instead of truncated feed contents.\\
-\pt Also implemented an \textbf{API} using \textbf{Go} supporting retrieval and addition of feeds and updating them in database\\
-\sectionsep
-
 \projectposition{Real Time Chatroom Application \href{https://github.com/nikhilCad/real-time-chatroom}{[Code+Screenshots]} }{}
 \pt Implemented a Real Time Chatroom  with \textbf{Next.js} for seamless server side rendering, and \textbf{Clerk} for authentication\\
 % \pt Enhanced styling consistency through the application of styles with \textbf{TailwindCSS}  \\
-\pt Integrated \textbf{UploadThing} as a robust big data server, supporting file uploads up to 2GB\\
+% 4MB is the limit for a single image file
+\pt Integrated \textbf{UploadThing}, which uses \textbf{AWS S3} under the hood, as a robust big data server, with file storage up to 2GB\\
+% You can explain this doc and the related YT video https://docs.uploadthing.com/blog/v7-launch
 \pt Ensured effective \textbf{CRUD} operations and server communication using the promise-based HTTP library \textbf{Axios}\\
 \pt Facilitated real-time bidirectional communication across platforms using \textbf{SocketIO}\\
+\sectionsep
+
+\projectposition{Golang Terminal News Reader \href{https://github.com/nikhilCad/go-news-reader}{[Code]}}{}
+\pt Created a terminal news reader in \textbf{Golang} using \textbf{Bubbletea}, for easy navigation of parsed news and YouTube feeds.\\
+\pt Integrated \textbf{SQLite} for efficient storage and retrieval of feeds, optimizing data management within the terminal. \\
+% \pt Implemented content fetching from the URL to \textbf{parse} and display full article text instead of truncated feed contents.\\
+\pt Implemented content fetching, parsing of full article from url, and an \textbf{API} using \textbf{Go} supporting retrieval and addition of feeds.\\
 \sectionsep
 
 \projectposition{Photogram - An image sharing social media platform \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
 \pt Launched Photogram, a dynamic image-sharing platform with \textbf{secure user authentication} using \textbf{Firebase}\\
 \pt Implemented \textbf{post, comments, home page and suggested users} functionality for enhanced user engagement \\
-\pt Developed responsive UI using \textbf{React},  utilizing \textbf{ChakraUI} for common UI elements\\
+% \pt Developed responsive UI using \textbf{React},  utilizing \textbf{ChakraUI} for common UI elements\\
 \pt Utilized \textbf{Zustand} for efficient state management in the frontend, providing updates on any change in backend\\
 \sectionsep
 
@@ -173,10 +201,10 @@
 \section{Skills} 
 \hrulefill
 
-\pt \textbf{Languages:} Python, C++, Java, Go, SQL, TypeScript \\
+\pt \textbf{Languages:} Java, Go, TypeScript, SQL, Python, C++  \\
 \pt \textbf{Frameworks:} ReactJS, Jest, Playwright, NextJS, NodeJS, Angular, Flask\\
 \pt \textbf{Developer Tools:}  Git, Heroku, Vercel, Firebase, LaTex, VSCode, IntelliJ\\
-\pt \textbf{Libraries:} Prisma, Pandas, Geopandas, ChakraUI Bootstrap, rayLib, Godot\\
+\pt \textbf{Libraries:} Prisma, Pandas, Geopandas, ChakraUI, Bootstrap, rayLib, Godot\\
 
 \sectionsep
 

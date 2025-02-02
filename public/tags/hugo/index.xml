@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.124.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 14 Apr 2024 18:52:03 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,8 @@
       <link>http://localhost:1313/blog/hugo-site/</link>
       <pubDate>Sun, 14 Apr 2024 18:52:03 +0530</pubDate>
       <guid>http://localhost:1313/blog/hugo-site/</guid>
-      <description>A previous version of my portfolio was created using good old HTML and CSS, however editing that was turning out to be a chore. A wise man once said, do not reinvent the wheel, so I looked into the world of static site generators.
-Stumbling upon Hugo, I saw that it already had a plethora of good themes. A quick scroll through the page and I finally settled on the amazing papermod theme at https://github.</description>
+      <description>&lt;p&gt;A previous version of my portfolio was created using good old HTML and CSS, however editing that was turning out to be a chore. A wise man once said, &lt;strong&gt;do not&lt;/strong&gt; reinvent the wheel, so I looked into the world of static site generators.&lt;/p&gt;
+&lt;p&gt;Stumbling upon Hugo, I saw that it already had a plethora of good themes. A quick scroll through the page and I finally settled on the amazing papermod theme at &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;https://github.com/adityatelange/hugo-PaperMod&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

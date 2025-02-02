@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.124.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
@@ -18,30 +18,65 @@
       <link>http://localhost:1313/projects/real-time-chatroom/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/real-time-chatroom/</guid>
-      <description> Implemented a Real Time Chatroom with Next.js for seamless server side rendering, and Clerk for authentication Enhanced styling consistency through the application of styles with TailwindCSS Integrated UploadThing as a robust big data server, supporting file uploads up to 2GB Ensured effective CRUD operations and server communication using the promise-based HTTP library Axios Facilitated real-time bidirectional communication across platforms using SocketIO </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a Real Time Chatroom with Next.js for seamless server side rendering, and Clerk for authentication&lt;/li&gt;
+&lt;li&gt;Enhanced styling consistency through the application of styles with TailwindCSS&lt;/li&gt;
+&lt;li&gt;Integrated UploadThing as a robust big data server, supporting file uploads up to 2GB&lt;/li&gt;
+&lt;li&gt;Ensured effective CRUD operations and server communication using the promise-based HTTP library Axios&lt;/li&gt;
+&lt;li&gt;Facilitated real-time bidirectional communication across platforms using SocketIO&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Photogram</title>
       <link>http://localhost:1313/projects/photogram/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/photogram/</guid>
-      <description> Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase Implemented post, comments, home page and suggested users functionality for enhanced user engagement Developed responsive UI using React, utilizing ChakraUI for common UI elements Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase&lt;/li&gt;
+&lt;li&gt;Implemented post, comments, home page and suggested users functionality for enhanced user engagement&lt;/li&gt;
+&lt;li&gt;Developed responsive UI using React, utilizing ChakraUI for common UI elements&lt;/li&gt;
+&lt;li&gt;Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Python News Reader</title>
       <link>http://localhost:1313/projects/python-news-reader/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/python-news-reader/</guid>
-      <description> Created a NewsReader App using Python Provided a way to subscribe user’s sources using RSS feeds available at preferred website Use beautifulsoup library to parse the website content with selectors </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Created a NewsReader App using Python&lt;/li&gt;
+&lt;li&gt;Provided a way to subscribe user’s sources using RSS feeds available at preferred website&lt;/li&gt;
+&lt;li&gt;Use beautifulsoup library to parse the website content with selectors&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Pyrager</title>
       <link>http://localhost:1313/projects/pyrager/</link>
       <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pyrager/</guid>
-      <description> Game made in Python using the tkinter module as a school project Can move using keyboard keys to move. Basic collision detection using arrays Saving and loading using Python and text files CONTROLS:
-W/A/S/D or Up/Left/Down/Right arrow keys to move Mouse Click to plant seeds, harvest etc. Escape key to escape to Main Menu INSTRUCTIONS:
-Open pyRager/pyRager.py (needs Python 3.7) Go to market at bottom left to buy some seeds : Cost $1(in game money) Click on green land to make a farm plot Click again to plant seed(if available) Wait 10 seconds for seeds to grow to plant Click to harvest plant Go to market, Sell plant for $2 Buy seeds again Buy banks </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Game made in Python using the tkinter module as a school project&lt;/li&gt;
+&lt;li&gt;Can move using keyboard keys to move. Basic collision detection using arrays&lt;/li&gt;
+&lt;li&gt;Saving and loading using Python and text files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CONTROLS&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;W/A/S/D or Up/Left/Down/Right arrow keys to move&lt;/li&gt;
+&lt;li&gt;Mouse Click to plant seeds, harvest etc.&lt;/li&gt;
+&lt;li&gt;Escape key to escape to Main Menu&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;INSTRUCTIONS&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open pyRager/pyRager.py (needs Python 3.7)&lt;/li&gt;
+&lt;li&gt;Go to market at bottom left to buy some seeds : Cost $1(in game money)&lt;/li&gt;
+&lt;li&gt;Click on green land to make a farm plot&lt;/li&gt;
+&lt;li&gt;Click again to plant seed(if available)&lt;/li&gt;
+&lt;li&gt;Wait 10 seconds for seeds to grow to plant&lt;/li&gt;
+&lt;li&gt;Click to harvest plant&lt;/li&gt;
+&lt;li&gt;Go to market, Sell plant for $2&lt;/li&gt;
+&lt;li&gt;Buy seeds again&lt;/li&gt;
+&lt;li&gt;Buy banks&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

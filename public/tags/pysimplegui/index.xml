@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.124.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/pysimplegui/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,11 @@
       <link>http://localhost:1313/projects/python-news-reader/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/python-news-reader/</guid>
-      <description> Created a NewsReader App using Python Provided a way to subscribe user’s sources using RSS feeds available at preferred website Use beautifulsoup library to parse the website content with selectors </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Created a NewsReader App using Python&lt;/li&gt;
+&lt;li&gt;Provided a way to subscribe user’s sources using RSS feeds available at preferred website&lt;/li&gt;
+&lt;li&gt;Use beautifulsoup library to parse the website content with selectors&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

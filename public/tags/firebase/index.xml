@@ -9,7 +9,7 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.124.1</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,12 @@
       <link>http://localhost:1313/projects/photogram/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/photogram/</guid>
-      <description> Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase Implemented post, comments, home page and suggested users functionality for enhanced user engagement Developed responsive UI using React, utilizing ChakraUI for common UI elements Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase&lt;/li&gt;
+&lt;li&gt;Implemented post, comments, home page and suggested users functionality for enhanced user engagement&lt;/li&gt;
+&lt;li&gt;Developed responsive UI using React, utilizing ChakraUI for common UI elements&lt;/li&gt;
+&lt;li&gt;Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

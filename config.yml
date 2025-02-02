@@ -1,6 +1,6 @@
 baseURL: "https://nikhilcad.github.io/"
 title: Nikhil Kadiyan
-paginate: 5
+pagination.pagerSize: 5
 theme: papermod
 
 enableRobotsTXT: true
@@ -70,6 +70,9 @@ params:
   homeInfoParams:
     Title: "Nikhil Kadiyan"
     Content: React developer exploring backend and Java
+
+  # todo - update the papermod theme and remove this
+  social: true
 
   socialIcons:
     - name: github

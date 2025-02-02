@@ -4,6 +4,21 @@
   <url>
     <loc>http://localhost:1313/experience/thoughtspot-intern/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/all/</loc>
+    <lastmod>2025-02-02T13:55:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experience/</loc>
+    <lastmod>2025-02-02T13:55:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-02T13:55:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-02T13:55:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experience/thoughtspot-mts/</loc>
+    <lastmod>2025-02-02T13:55:49+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-04-24T23:58:56+05:30</lastmod>
   </url><url>
@@ -11,12 +26,6 @@
     <lastmod>2024-04-24T23:58:56+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/codeforces-template/</loc>
-    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-24T23:58:56+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-04-24T23:58:56+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/github/</loc>
@@ -86,8 +95,6 @@
     <lastmod>2020-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/experience/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/graphql/</loc>
   </url><url>
