@@ -14,13 +14,21 @@ apt-get install fonts-font-awesome
 
 Copy Paste
 
-https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/
-
 https://nikhilcad.github.io/
 
 https://github.com/nikhilcad
 
-Member of Technical Staff
+https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/
+
+https://leetcode.com/u/anidnottaken/
+
+nikhil.kadiyan.20@gmail.com
+
+National Institute of Technology, Delhi
+
+Electronics and Communications Engineering
+
+Member of Technical Staff 2
 ThoughtSpot India Pvt Ltd
 Achieved a 90% decrease in page load times by migrating the impressions Cassandra database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database.
 Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks
