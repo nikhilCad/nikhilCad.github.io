@@ -63,7 +63,7 @@
 % Mid Year Review Jul24-Jan25 ThoughtSpot
 % Epics
 %  Accessibility - Worked on accessibility improvements for Growth components, asked by Bank of America, significant progress in enhancing accessibility features to ensure compliance and inclusivity.
-%  Edge Onboarding (ongoing) - Creating a new onboarding flow which introduces Spotter and TSA to a first time free trial user of Thoughtspot.
+%  Edge Onboarding - Creating a new onboarding flow which introduces Spotter and TSA to a first time free trial user of Thoughtspot - Aims to be first and reduce user dropout
 %  Protractor to Playwright - Migrated protractor tests related to share and data access scenarios
 %  Spotter Public API test cases - Wrote API test cases that check response for Spotter Public API
 % Security
@@ -74,14 +74,14 @@
 %  Mixpanel MTUs - Reduced Mixpanel MTUs in testing project 700k to 10k weekly users by identifying cases where Mixpanel should not be enabled
 %  Only showing tags which user has access to ( Previously all tags were shown) 
 %  Bug fixing / ops
-% Munshi Org Aware - Customer commit
+% Munshi Org Aware - Made Cassandra database that handles our views org aware. Org are independent sheels within Thoughtspot
+% KPI alerts for Slack
 \position{Member of Technical Staff 2 | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Present}
 \pt Achieved a \textbf{90\% decrease in page load times} by migrating the impressions Cassandra database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database\\
 \pt Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
-\pt Debugged a Mixpanel issue that led to excessive event firing during testing, \textbf{causing high costs}. Reduced the events from 20 million to actual value of 300k, with the remaining events being from dev clusters used by customers, ahead of a contract renewal.\\
+\pt Debugged a Mixpanel issue that led to excessive event firing during testing, \textbf{causing high costs}. Reduced the events from 20 million to actual value of 300k, with the remaining events being from dev clusters used by customers, ahead of a contract renewal saving the company 30,000 dollars.\\ % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
 % \pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
 % COMS is multi tenant, buzzwords - AWS - Migrating to GCP to ave costs as package deal
-% \pt Implemented a rate limiter for share API using Redis
 \sectionsep
 
 \position{Software Engineering Intern | React, Typescript, Playwright, Jest}{Jan '24 - Jun `24}
@@ -216,8 +216,8 @@
 \section{Achievments} 
 \hrulefill
 
-\pt Solved \textbf{400+} Data Structures and Algorithm problems on \textbf{Leetcode} \href{https://leetcode.com/anidnottaken/}{[Link]}, rated \textbf{1586} on contests.\\ 
-\pt Achieved a highest Rating of \textbf{1708}, 3 stars in \textbf{Codechef} \href{https://www.codechef.com/users/nikhilcad}{[Link]} \\
+\pt Solved \textbf{600+} Data Structures and Algorithm problems on \textbf{Leetcode} \href{https://leetcode.com/anidnottaken/}{[Link]}, rated \textbf{1679} on contests.\\ 
+\pt Achieved a highest Rating of \textbf{1378} in \textbf{Codeforces} \href{https://codeforces.com/profile/nikhilcad}{[Link]} \\
 \pt Published paper \textbf{Study and Analysis of Plant Disease Identification Models} for ICIC3S Conference, available on \href{https://ieeexplore.ieee.org/document/10603350}{[IEEE Explore]} DOI: 10.1109/ICIC3S61846.2024.10603350\\
 % \pt Awarded 5 stars in Python and C on \textbf{Hackerank} \href{https://www.hackerrank.com/nikhilcaddilac?hr_r=1}{[Link]}\\
 %\pt \textbf{Other Technologies:} PyTorch, TensorFlow, Scikit-learn, Git, Flutter, Android Studio, ReactJS, Nodejs, Bootstrap, Pandas, Geopandas, Heroku, Godot
