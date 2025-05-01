@@ -79,8 +79,8 @@ params:
       url: "https://github.com/nikhilcad"
     - name: linkedin
       url: "https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0"
-    # - name: codeforces
-    #   url: "https://codeforces.com/profile/nikhilcad"
+    - name: codeforces
+      url: "https://codeforces.com/profile/nikhilcad"
     - name: leetcode
       url: "https://leetcode.com/anidnottaken/"
     - name: cv
