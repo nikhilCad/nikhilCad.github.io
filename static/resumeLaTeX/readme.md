@@ -61,17 +61,17 @@ CTC - 18.5 (Includes joining bonus 2L)
 
 
 
-Dear Hiring Manager,
+Dear Hiring Team,
 
-With hands-on experience in building scalable web applications, addressing performance bottlenecks, and ensuring accessibility, I believe I bring both the technical and problem-solving abilities needed to contribute meaningfully to your team.
+I'm writing to express my keen interest in the SDE 1 position at Chalo for Backend Developer. With 1 year of experience in software development, I believe my skills align well with the requirements of this role.
 
-During my time at ThoughtSpot as a Member of Technical Staff, I led key backend optimizations, including migrating our homepage impressions database to a newer schema, resulting in a 90% decrease in page load times. I also addressed critical security concerns by implementing a Redis-based rate limiter, and optimized analytics costs by debugging excessive Mixpanel event firing—reducing events from 20 million to just 300k, reflecting the actual usage of the product and saving 30,000 dollars in Mixpanel renewals.
+During my time at ThoughtSpot as a Member of Technical Staff, I was part of backend optimizations, including migrating our homepage impressions database to a newer schema, resulting in a 90% decrease in page load times. I also addressed critical security concerns by implementing a Redis-based rate limiter, and optimized analytics costs by debugging excessive Mixpanel event firing—reducing events from 20 million to just 300k, reflecting the actual usage of the product and saving 30,000 dollars in Mixpanel renewals.
 
 As a Software Engineering Intern at ThoughtSpot, I contributed to multiple impactful initiatives across frontend development and accessibility. I migrated the schema viewer from Angular to React, built features like Filter and Sort for worksheet tables, and developed Knowledge Cards that display contextual information about worksheets and tables using GraphQL, Typescript and React. I consistently resolved high-priority bugs with fast turnaround times and backported critical fixes to earlier product versions. In a previous internship, I implemented over 50 accessibility enhancements, ensuring the product met WAI-ARIA and WCAG standards and achieved Level A certification, making it more usable for screen reader and keyboard users.
 
 Beyond my professional experience, I’ve also built and deployed several personal projects such as a Real-Time Chatroom App, a Golang Terminal News Reader, and Photogram, a social media image-sharing platform. These projects highlight my passion for building user-focused applications, my comfort across the stack, and my commitment to writing clean, maintainable code.
 
-I am excited about the opportunity to apply my skills and enthusiasm at your company, and I’m confident I’ll be a strong fit for your engineering team. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute.
+I am excited about the opportunity to apply my skills and enthusiasm at your company, and I’m confident I’ll be a strong fit for your engineering team. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute. PFA attached resume.
 
 Warm regards,
 Nikhil Kadiyan
