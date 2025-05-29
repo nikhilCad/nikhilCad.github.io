@@ -78,7 +78,7 @@
 \pt Achieved a \textbf{90\% reduction in homepage load time} by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified views table that stores total views per user.\\
 \pt Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
 \pt \textbf{Diagnosed and resolved} a Mixpanel overtracking issue ahead of a renewal, \textbf{reducing test event volume by 98.5\% (20M to 300K)} and \textbf{saving \$30K}.\\ % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
-\pt Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without logging into the platform, increasing user engagement.\\
+\pt Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without opening the BI tool, increasing user engagement.\\
 % \pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
 % COMS is multi tenant, buzzwords - AWS - Migrating to GCP to ave costs as package deal
 \sectionsep
