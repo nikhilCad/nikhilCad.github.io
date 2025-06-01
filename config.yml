@@ -82,7 +82,7 @@ params:
     - name: codeforces
       url: "https://codeforces.com/profile/nikhilcad"
     - name: leetcode
-      url: "https://leetcode.com/anidnottaken/"
+      url: "https://leetcode.com/thisidusedbysomeone/"
     - name: cv
       url: "https://nikhilcad.github.io/resumeLaTeX/Nikhil_Kadiyan_Resume.pdf"
 
