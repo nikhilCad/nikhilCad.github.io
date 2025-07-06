@@ -22,7 +22,7 @@ https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/
 
 https://leetcode.com/u/thisidusedbysomeone/
 
-https://codeforces.com/profile/nikhilcad
+https://codeforces.com/profile/akatsumanoka
 
 nikhil.kadiyan.20@gmail.com
 
