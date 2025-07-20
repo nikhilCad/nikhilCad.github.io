@@ -24,6 +24,9 @@ https://leetcode.com/u/thisidusedbysomeone/
 
 https://codeforces.com/profile/akatsumanoka
 
+Skills
+Java, Golang, React, Typescript, GraphQL, AWS, Jest, Playwright
+
 nikhil.kadiyan.20@gmail.com
 
 National Institute of Technology, Delhi
