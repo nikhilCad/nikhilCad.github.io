@@ -25,7 +25,7 @@ https://leetcode.com/u/thisidusedbysomeone/
 https://codeforces.com/profile/akatsumanoka
 
 Skills
-Java, Golang, React, Typescript, GraphQL, AWS, Jest, Playwright
+Java, Golang, React, Typescript, Cassandra, Redis, GraphQL, AWS, Jest, Playwright, Mockito
 
 nikhil.kadiyan.20@gmail.com
 
@@ -66,7 +66,7 @@ CTC - 18.5 (Includes joining bonus 2L)
 
 Dear Hiring Team,
 
-I'm writing to express my keen interest in the SDE 1 position at Chalo for Backend Developer. With 1 year of experience in software development, I believe my skills align well with the requirements of this role.
+I'm writing to express my keen interest in this position. With 1 year of experience in software development, I believe my skills align well with the requirements of this role.
 
 During my time at ThoughtSpot as a Member of Technical Staff, I was part of backend optimizations, including migrating our homepage impressions database to a newer schema, resulting in a 90% decrease in page load times. I also addressed critical security concerns by implementing a Redis-based rate limiter, and optimized analytics costs by debugging excessive Mixpanel event firing—reducing events from 20 million to just 300k, reflecting the actual usage of the product and saving 30,000 dollars in Mixpanel renewals.
 
