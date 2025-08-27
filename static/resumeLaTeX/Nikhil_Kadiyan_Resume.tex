@@ -78,6 +78,7 @@
 \pt Achieved a \textbf{90\% reduction in homepage load time} by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified table storing total views per user.\\
 \pt Integrated \textbf{org awareness} to the trending table of \textbf{Cassandra} database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.\\
 \pt Planned and carried out \textbf{data migration} of the trending \textbf{Cassandra} database after the schema change through a background script safely migrating all the data and then switching to the newer table after completion.\\
+\pt Redesigned the user onboarding to highlight \textbf{AI-powered Spotter}, guiding users through creating connections, importing data, and asking questions via natural language, resulting in improved feature adoption by 30\%.\\
 \pt Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
 \pt \textbf{Diagnosed and patched} a Mixpanel overtracking issue ahead of a renewal, \textbf{reducing test event volume by 98.5\% (20M to 300K)} and \textbf{saving \$30K}.\\ % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
 \pt Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without opening the BI tool, increasing notification click rate by 20\%.\\
@@ -159,7 +160,7 @@
 \pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and an interactive \textbf{Terminal User Interface (TUI)}.\\
 \pt Implemented a \textbf{SQLite-based caching system} and a \textbf{RESTful API} in Go for efficient feed management and content delivery.\\
 \pt Supports full article content extraction, TTS, and integrated podcast media enclosure.\\
-\pt Designed a \textbf{responsive UI} (web + terminal) with keyboard/mouse navigation, feed grouping, and persistent read/unread tracking.\\
+% \pt Designed a \textbf{responsive UI} (web + terminal) with keyboard/mouse navigation, feed grouping, and persistent read/unread tracking.\\
 \sectionsep
 
 %\projectposition{Photogram - An image sharing social media platform \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
