@@ -33,12 +33,20 @@ National Institute of Technology, Delhi
 
 Electronics and Communications Engineering
 
+Member of Technical Staff 3
+ThoughtSpot India Pvt Ltd
+Java, Golang, React, Typescript, GraphQL
+- Working on Integrating Thoughtspot's web plugins in Google Slides, Sheets, Microsoft Excel and Powerpoint to give customers a holistic view of their data within their preferred application.
+
 Member of Technical Staff 2
 ThoughtSpot India Pvt Ltd
 Java, Golang, React, Typescript, GraphQL
-- Achieved a 90% decrease in page load times by migrating the impressions Cassandra database for the product's homepage from Munshi V1 to V2, achieved by changing the schema of the database.
-- Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks
-- Debugged a Mixpanel issue that led to excessive event firing during testing, causing high costs. Reduced the events from 20 million to 300k, with the remaining events being from dev clusters used by customers, ahead of a contract renewal saving the company 30,000 dollars.
+- Achieved a 90% reduction in homepage load time by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified views table that stores total views per user.
+- Integrated org awareness to the trending table of Cassandra database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.
+- Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.
+- Redesigned the user onboarding to highlight AI-powered Spotter, guiding users through creating connections, importing data, and asking questions via natural language, resulting in improved feature adoption by 30%.
+- Diagnosed and resolved a Mixpanel overtracking issueahead of a renewal,reducing test event volume by 98.5% (20M to 300K) and saving costs.
+- Added frontend support for monitor alerts in Slack, enabling users to receive data updates directly in Slack without opening the BI tool, increasing user engagement.
 
 
 Software Engineering Intern
