@@ -80,8 +80,8 @@
 % KPI alerts for Slack
 \position{ThoughtSpot | Member of Technical Staff 2 | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Jul '25 | Hyderabad}
 \pt Achieved a \textbf{90\% reduction in homepage load time} by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified table storing total views per user.\\
-\pt Integrated \textbf{org awareness} to the trending table of \textbf{Cassandra} database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.\\
-\pt Planned and carried out \textbf{data migration} of the trending \textbf{Cassandra} database after the schema change through a background script safely migrating all the data and then switching to the newer table after completion.\\
+\pt Introduced \textbf{org awareness} to the trending table of \textbf{Cassandra} database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.\\
+\pt Executed team-led \textbf{zero downtime data migration} of \textbf{50M+} rows across clusters in \textbf{Cassandra} database by implementing a background script that safely transferred data and seamlessly switched over to the new schema.\\
 \pt Redesigned the user onboarding to highlight \textbf{AI-powered Spotter}, guiding users through creating connections, importing data, and asking questions via natural language, resulting in improved feature adoption by 30\%.\\
 \pt Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
 \pt \textbf{Diagnosed and patched} a Mixpanel overtracking issue ahead of a renewal, \textbf{reducing test event volume by 98.5\% (20M to 300K)} and \textbf{saving \$30K}.\\ % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
@@ -104,7 +104,7 @@
 \position{ThoughtSpot | Software Engineering Intern | React, Typescript, Jest}{Jun '23 - Jul '23 | Hyderabad}
 \pt Streamlined \textbf{50+ accessibility improvements} across the product's website.\\
 \pt Worked with \textbf{React.js} and \textbf{Typescript} to ensure accessibility by \textbf{keyboard and screen readers}, especially for blind and near-sighted users.\\
-\pt Collaborated with the team to ensure that the website complied with \textbf{WAI-ARIA and WCAG} international standards, achieving \textbf{Level A} accessibility certification.\\
+\pt Collaborated with the team to ensure that the website complied with \textbf{WAI-ARIA and WCAG} international standards, achieving \textbf{Level A} accessibility certification for legal compliance.\\
 \sectionsep
 
 
@@ -137,22 +137,6 @@
 % \pt Uses \textbf{ChakraUI} for UI elements and \textbf{Zustand} for state managements\\
 % \sectionsep
 
-% \projectposition{Golang Cloth Management API \href{https://github.com/nikhilCad/go-cloth-management}{[Code]}}{}
-% \pt Developed a comprehensive cloth management API in \textbf{Golang} to handle inventory and order management.\\
-% \pt Implemented \textbf{JWT token authentication} for secure access and operations within the API.\\
-% \pt Created endpoints for updating cloth data and managing customer orders, ensuring efficient and reliable data transactions.\\
-% \pt Updated data to a \textbf{MongoDB} database for robust and scalable data storage and retrieval.\\
-% \sectionsep
-\projectposition{Real Time Chatroom Application \href{https://github.com/nikhilCad/real-time-chatroom}{[Code+Screenshots]}}{}
-\pt Implemented a Real Time Chatroom with \textbf{Next.js} for seamless server-side rendering, and \textbf{Clerk} for authentication.\\
-% \pt Enhanced styling consistency through the application of styles with \textbf{TailwindCSS}  \\
-% 4MB is the limit for a single image file
-\pt Integrated \textbf{UploadThing} for user-uploaded images/videos to be sent in channels, which uses \textbf{AWS S3} under the hood, with file storage up to 2GB.\\
-% You can explain this doc and the related YT video https://docs.uploadthing.com/blog/v7-launch
-\pt Ensured effective \textbf{CRUD} operations and server communication using the promise-based HTTP library \textbf{Axios}.\\
-\pt Facilitated real-time bidirectional communication across platforms using \textbf{SocketIO}.\\
-\sectionsep
-
 % \projectposition{Golang Terminal News Reader \href{https://github.com/nikhilCad/go-news-reader}{[Code]}}{}
 % \pt Created a terminal news reader in \textbf{Golang} using \textbf{Bubbletea}, for easy navigation of parsed news and YouTube feeds.\\
 % \pt Integrated \textbf{SQLite} for efficient storage and retrieval of feeds, optimizing data management within the terminal. \\
@@ -164,7 +148,26 @@
 \pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and an interactive \textbf{Terminal User Interface (TUI)}.\\
 \pt Implemented a \textbf{SQLite-based caching system} and a \textbf{RESTful API} in Go for efficient feed management and content delivery.\\
 \pt Supports full article content extraction, TTS, and integrated podcast media enclosure.\\
-% \pt Designed a \textbf{responsive UI} (web + terminal) with keyboard/mouse navigation, feed grouping, and persistent read/unread tracking.\\
+\pt Designed a \textbf{responsive UI} (web + terminal) with keyboard/mouse navigation, feed grouping, and persistent read/unread tracking.\\
+\sectionsep
+
+% \projectposition{Golang Cloth Management API \href{https://github.com/nikhilCad/go-cloth-management}{[Code]}}{}
+% \pt Developed a comprehensive cloth management API in \textbf{Golang} to handle inventory and order management.\\
+% \pt Implemented \textbf{JWT token authentication} for secure access and operations within the API.\\
+% \pt Created endpoints for updating cloth data and managing customer orders, ensuring efficient and reliable data transactions.\\
+% \pt Updated data to a \textbf{MongoDB} database for robust and scalable data storage and retrieval.\\
+% \sectionsep
+\projectposition{Real Time Chatroom Application \href{https://github.com/nikhilCad/real-time-chatroom}{[Code+Screenshots]}}{}
+% \pt Implemented a Real Time Chatroom with \textbf{Next.js} for seamless server-side rendering, and \textbf{Clerk} for authentication.\\
+\pt Built a multi-platform chat system with \textbf{Next.js, Clerk authentication, and AWS S3 storage.}\\
+% \pt Enhanced styling consistency through the application of styles with \textbf{TailwindCSS}  \\
+% 4MB is the limit for a single image file
+% \pt Integrated \textbf{UploadThing} for user-uploaded images/videos to be sent in channels, which uses \textbf{AWS S3} under the hood, with file storage up to 2GB.\\
+\pt Supported \textbf{2GB media uploads} and enabled real-time messaging with \textbf{Socket.IO} for real-time bidirectional communication.\\
+% You can explain this doc and the related YT video https://docs.uploadthing.com/blog/v7-launch
+\pt Deployed a working demo used by \textbf{50+ test users}.\\
+% \pt Ensured effective \textbf{CRUD} operations and server communication using the promise-based HTTP library \textbf{Axios}.\\
+% \pt Facilitated real-time bidirectional communication across platforms using \textbf{SocketIO}.\\
 \sectionsep
 
 %\projectposition{Photogram - An image sharing social media platform \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
@@ -213,9 +216,13 @@
 \section{Skills} 
 \hrulefill
 
-\pt \textbf{Languages:} Java, Go, TypeScript, Python, C++, SQL \\
-\pt \textbf{Frameworks \& Libraries:} React, Next.js, Node.js, Flask, Jest, Playwright, Prisma, Pandas \\
-\pt \textbf{Tools \& Platforms:} Git, Firebase, Vercel, Heroku, VSCode, IntelliJ, LaTeX, Godot \\
+% \pt \textbf{Languages:} Java, Go, TypeScript, Python, C++, SQL \\
+% \pt \textbf{Frameworks \& Libraries:} React, Next.js, Node.js, Flask, Jest, Playwright, Prisma, Pandas \\
+% \pt \textbf{Tools \& Platforms:} Git, Firebase, Vercel, Heroku, VSCode, IntelliJ, LaTeX, Godot \\
+
+\pt \textbf{Core:} Java, Golang, TypeScript, React, SQL, GraphQL \\
+\pt \textbf{Proficient:} Python, C++, Node.js, Next.js, Flask \\
+\pt \textbf{Tools:} Git, Docker, Firebase, AWS (S3, EC2), Jest, Playwright \\
 
 \sectionsep
 
