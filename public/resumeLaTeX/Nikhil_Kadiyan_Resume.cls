@@ -36,7 +36,7 @@
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{0pt}{-8pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\sectionsep}{\vspace{5pt}}
 \newcommand{\postsectionsep}{\vspace{0pt}}
 
 % Headings command
@@ -49,7 +49,7 @@
 }{}{0em}{}
 
 \newcommand{\position}[2]{
-	\fontspec[Path = fonts/garabond/]{EBGaramond-SemiBoldItalic}\fontsize{11.5pt}{11.5pt}\selectfont
+	\fontspec[Path = fonts/garabond/]{EBGaramond-SemiBold}\fontsize{11pt}{11pt}\selectfont
 	\textit{\textbf{#1}} \normalfont \hfill #2 \\
 }
 
