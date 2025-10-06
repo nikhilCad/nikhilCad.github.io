@@ -45,16 +45,16 @@ Java, Golang, React, Typescript, GraphQL
 - Integrated org awareness to the trending table of Cassandra database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.
 - Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.
 - Redesigned the user onboarding to highlight AI-powered Spotter, guiding users through creating connections, importing data, and asking questions via natural language, resulting in improved feature adoption by 30%.
-- Diagnosed and resolved a Mixpanel overtracking issueahead of a renewal,reducing test event volume by 98.5% (20M to 300K) and saving costs.
+- Diagnosed and resolved a Mixpanel overtracking issue ahead of a renewal,reducing test event volume by 98.5% (20M to 300K) and saving costs.
 - Added frontend support for monitor alerts in Slack, enabling users to receive data updates directly in Slack without opening the BI tool, increasing user engagement.
 
 
 Software Engineering Intern
 React, Typescript, GraphQL, Playwright, Jest
-- Migrated schema viewer from Angular to React by creating new React componentsand making graphQL calls to the backend. Also helped to solve various design issues in old UI during migration
-- Worked on Filter and Sort feature for worksheet tablesand columns along with one team member. Collaborated with the backend team to update API to include tags, authors and database info to sort the tables.
+- Migrated schema viewer from Angular to React by creating new React components and making graphQL calls to the backend. Also helped to solve various design issues in old UI during migration
+- Worked on Filter and Sort feature for worksheet tables and columns along with one team member. Collaborated with the backend team to update API to include tags, authors and database info to sort the tables.
 - Implemented Knowledge Cards that tell users info aboutaselected tableincluding database. schema,authoretc. Made API calls to the backend
-- Resolved high priority bugs in theexisting code on a priority basis for the customer, with averagetime of 1-2 days to merge the changes into master. Cherry picked must fixes to already released software,added retroactively to older versions of product.
+- Resolved high priority bugs in the existing code on a priority basis for the customer, with average an time of 1-2 days to merge the changes into master. Cherry picked must fixes to already released software,added retroactively to older versions of product.
 
 Software Engineering Intern
 React, Typescript
@@ -86,3 +86,35 @@ I am excited about the opportunity to apply my skills and enthusiasm at your com
 
 Warm regards,
 Nikhil Kadiyan
+
+
+REFERRAL
+
+Hi [Name],
+
+I hope you’re doing well. I'm reaching out because I came across an opening for the Software Engineer role at [COMPANY_NAME] with Job ID: [JOB_ID_HERE] and was hoping you could refer me. The position seems like a great fit, and I believe my background at ThoughtSpot aligns well with what they’re looking for.
+
+As a Member of Technical Staff 3 at ThoughtSpot, I've had the opportunity to lead and contribute to several high-impact projects. My work includes:
+
+BE - OPTION 1
+Redesigned Cassandra database schemas, which reduced homepage load time by 90%, replacing per-view lookups with a unified table.
+Introduced a Redis-based rate limiter to enhance API security and mitigate abuse risks following penetration testing.
+Managed a team-led zero-downtime data migration of over 50 million rows across Cassandra clusters.
+Diagnosed and patched a Mixpanel overtracking issue, resulting in a $30K annual saving.
+
+FE - OPTION 2
+Leading UI/UX initiatives by integrating ThoughtSpot’s web plugins into major platforms like Google Slides, Sheets, and Microsoft Excel/PowerPoint.
+Streamlined 50+ accessibility improvements across the product’s website using React/TypeScript, achieving Level A WCAG international certification.
+Successfully migrated a large-scale schema viewer from Angular to React, rectifying legacy design issues and leveraging GraphQL for data fetching.
+Redesigned the user onboarding to highlight AI-powered Spotter, resulting in improved feature adoption by 30%.
+
+FULL STACK - OPTION 3
+Led the end-to-end integration of a product free trial option, handling complex account provisioning and feature gating to drive new customer acquisition.
+Achieved a 90% reduction in homepage load time by migrating the internal Cassandra impressions database to a new, optimized schema.
+Redesigned the user onboarding to highlight AI-powered Spotter, resulting in improved feature adoption by 30%.
+
+My skills include Java, Golang, React, and TypeScript, and I’m a B.Tech. graduate from NIT Delhi. I've also attached my resume and linked my portfolio for your review.
+
+My resume is available at: https://nikhilcad.github.io/resume
+
+I would be very grateful for your support with a referral. Please let me know if you need any more information from me.
