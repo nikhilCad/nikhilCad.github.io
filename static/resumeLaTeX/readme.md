@@ -35,8 +35,12 @@ Electronics and Communications Engineering
 
 Member of Technical Staff 3
 ThoughtSpot India Pvt Ltd
-Java, Golang, React, Typescript, GraphQL
-- Working on Integrating Thoughtspot's web plugins in Google Slides, Sheets, Microsoft Excel and Powerpoint to give customers a holistic view of their data within their preferred application.
+Python, Golang, Java
+- Architected a distributed, multi-tenant provisioning engine using Python, FastAPI, SQLAlchemy, Alembic, and Terraform on AWS (EC2, S3) to automate isolated environment deployments across 3 global regions (USA, Europe, Oceania),reducing onboarding deployment timeline from weeks to under 2 hours for 3k+ enterprise users.
+- Created SpotterCode, a custom MCP server handling 200 concurrent requests via an async, multi-worker Uvicornarchitecture and caching across 3 dedicated agents (embed, docs, API); enabling 5k+ enterprise users to embed BI websites via
+natural language, increasing embed adoption by 20%.• Engineered integrations for ThoughtSpot web plugins across Google Slides, Sheets, Microsoft Excel, and PowerPoint,enabling embedded analytics for 2k+ enterprise users.
+- Collaborated in building a Salesforce LWC plugin to embed ThoughtSpot dashboards directly within Salesforce CRM,reaching 300+ enterprise Salesforce admins, a high-value segment at the intersection of two enterprise platforms.
+- Prototyped Spotbuild, an AI-powered prompt-to-BI system that auto-generates Liveboard answers and worksheets,pioneering an approach later adopted by the product’s native AI features
 
 Member of Technical Staff 2
 ThoughtSpot India Pvt Ltd
