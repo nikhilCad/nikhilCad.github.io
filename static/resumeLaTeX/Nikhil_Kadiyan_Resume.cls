@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=0.5in, vmargin=0.5in]{geometry}
+\usepackage[hmargin=0.5in, vmargin=0.45in]{geometry}
 \usepackage[hidelinks]{hyperref}
 
 % Color definitions
@@ -23,20 +23,21 @@
 
 % Name command
 \newcommand{\namesection}[2]{
-	\centering{
-		\fontsize{16pt}{20pt} 
-		\fontspec[Path = fonts/georgia/]{georgiab}\selectfont #1
-	} \\
-	\centering{\fontsize{10pt}{12pt}\selectfont #2}
-	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\vspace{-10pt}
+    \centering{
+        \fontsize{16pt}{20pt} 
+        \fontspec[Path = fonts/georgia/]{georgiab}\selectfont #1
+    } \\
+    \centering{\fontsize{10pt}{12pt}\selectfont #2}
+    \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+    \vspace{-6pt} % Restored breathing room below header
 }
 
-% Section seperators 
+% Section separators 
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{0pt}{-8pt}
-\titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{5pt}}
+% Relaxed section padding to prevent text from hitting lines
+\titlespacing{\section}{0pt}{4pt}{-4pt}
+\titlespacing{\subsection}{0pt}{2pt}{0pt}
+\newcommand{\sectionsep}{\vspace{4pt}} % Clean padding between roles
 \newcommand{\postsectionsep}{\vspace{0pt}}
 
 % Headings command
@@ -45,17 +46,17 @@
 
 % Subheadings command
 \titleformat{\subsection}{
-	\fontspec[Path = fonts/garabond/]{EBGaramond-Bold}\fontsize{12pt}{12pt}\selectfont \bfseries
+    \fontspec[Path = fonts/garabond/]{EBGaramond-Bold}\fontsize{12pt}{12pt}\selectfont \bfseries
 }{}{0em}{}
 
 \newcommand{\position}[2]{
-	\fontspec[Path = fonts/garabond/]{EBGaramond-SemiBold}\fontsize{11pt}{11pt}\selectfont
-	\textit{\textbf{#1}} \normalfont \hfill #2 \\
+    \fontspec[Path = fonts/garabond/]{EBGaramond-SemiBold}\fontsize{11pt}{11pt}\selectfont
+    \textit{\textbf{#1}} \normalfont \hfill #2 \\
 }
 
 \newcommand{\projectposition}[2]{
-	\fontspec[Path = fonts/garabond/]{EBGaramond-SemiBold}\fontsize{11pt}{11pt}\selectfont
-	\textit{\textbf{#1}} \normalfont \hfill #2 \\
+    \fontspec[Path = fonts/garabond/]{EBGaramond-SemiBold}\fontsize{11pt}{11pt}\selectfont
+    \textit{\textbf{#1}} \normalfont \hfill #2 \\
 }
 
 % Other command

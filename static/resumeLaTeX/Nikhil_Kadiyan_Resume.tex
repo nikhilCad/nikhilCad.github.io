@@ -8,8 +8,8 @@
 \renewcommand{\headrulewidth}{0pt}
 
 \hypersetup{%
- 	colorlinks=false,% hyperlinks will be black colour
- 	pdfborderstyle={/S/U/W 0.25}% border style will be underline of width 0.25pt
+    colorlinks=false,% hyperlinks will be black colour
+    pdfborderstyle={/S/U/W 0.25}% border style will be underline of width 0.25pt
 }
  
 \begin{document}
@@ -19,9 +19,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Nikhil Kadiyan}{
     % xxx-xxx-xxxx -> Phone Number
-	% \normalfont Hyderabad, India \hfill \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill +91 8800475087 \hfill \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{LinkedIn:nikhilcad} \hfill \href{https://github.com/nikhilcad}{Github:nikhilcad}
-	{\faMapMarker }Hyderabad, India \hfill {\faAt } \href{mailto:nikhilkadiyan20@gmail.com}{nikhilkadiyan20@gmail.com} \hfill {\faPhone* } +91 8800475087 \hfill {\faGlobe } \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill {\faLinkedin } \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{nikhilcad} \hfill {\faGithub } \href{https://github.com/nikhilcad}{nikhilcad}
-	}
+    % \normalfont Hyderabad, India \hfill \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill +91 8800475087 \hfill \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{LinkedIn:nikhilcad} \hfill \href{https://github.com/nikhilcad}{Github:nikhilcad}
+    {\faMapMarker }Hyderabad, India \hfill {\faAt } \href{mailto:nikhilkadiyan20@gmail.com}{nikhilkadiyan20@gmail.com} \hfill {\faPhone* } +91 8800475087 \hfill {\faGlobe } \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill {\faLinkedin } \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{nikhilcad} \hfill {\faGithub } \href{https://github.com/nikhilcad}{nikhilcad}
+    }
 
 \descript{}
 
@@ -49,10 +49,11 @@
 \hrulefill
 
 \position{ThoughtSpot | Member of Technical Staff 3 | Java, Golang, React, Typescript, GraphQL}{Aug '25 - Present | Hyderabad}
+\pt Architected a \textbf{distributed, multi-tenant provisioning engine} using \textbf{Python, FastAPI, SQLAlchemy, Alembic,} and \textbf{Terraform on AWS} (EC2, S3) to automate isolated environment deployments across \textbf{3 global regions} (USA, Europe, Oceania), reducing onboarding deployment timeline from \textbf{weeks to under 2 hours} for \textbf{3k+ enterprise users}.\\
+\pt Created \textbf{SpotterCode}, a custom \textbf{MCP server} handling \textbf{200 concurrent requests} via an async, multi-worker Uvicorn architecture and caching across 3 dedicated agents (embed, docs, API); enabling \textbf{5k+ enterprise users} to embed BI websites via natural language, \textbf{increasing embed adoption by 20\%}.\\
 \pt Engineered integrations for ThoughtSpot web plugins across \textbf{Google Slides, Sheets, Microsoft Excel, and PowerPoint}, enabling embedded analytics for \textbf{2k+ enterprise users}.\\
-\pt Colloborated in building a \textbf{Salesforce LWC plugin} to embed \textbf{ThoughtSpot dashboards and Liveboards} directly within Salesforce, enabling contextual analytics inside CRM workflows.\\
-\pt Built \textbf{Spotbuild}, an \textbf{AI-powered content generation system} that auto-generates \textbf{Liveboard answers and worksheets} from user prompts, enabling prospects to quickly assess ThoughtSpot’s analytical capabilities.\\
-\pt Created \textbf{SpotterCode}, a MCP server to help user embed BI websites faster using natural language, also providing \textbf{relevant documentation} for deeper understanding.\\
+\pt Collaborated in building a \textbf{Salesforce LWC plugin} to embed ThoughtSpot dashboards directly within Salesforce CRM, reaching \textbf{300+ enterprise Salesforce admins}, a high-value segment at the intersection of two enterprise platforms.\\
+\pt Prototyped \textbf{Spotbuild}, an \textbf{AI-powered prompt-to-BI system} that auto-generates Liveboard answers and worksheets, pioneering an approach later adopted by the product's native AI features.\\
 \sectionsep
 
 % Munshi -reduced load times -worked on trending
@@ -89,8 +90,6 @@
 \pt Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
 \pt \textbf{Diagnosed and patched} a Mixpanel overtracking issue ahead of a renewal, \textbf{reducing test event volume by 98.5\% (20M to 300K)} and \textbf{saving \$30K}.\\ % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
 \pt Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without opening the BI tool, increasing notification click rate by 20\%.\\
-% \pt Executed the handling of communication events as a multi tenant service as measured by the successful implementation of Slack event handling for all clusters within a tenant and making the app comply with Slack guidelines. \\
-% COMS is multi tenant, buzzwords - AWS - Migrating to GCP to ave costs as package deal
 \sectionsep
 
 \position{ThoughtSpot | Software Engineering Intern | React, Typescript, Playwright, Jest}{Jun - Jul '23 | Jan - Jun '24 | Hyderabad}
@@ -100,7 +99,7 @@
 % Async rendering or whatever 
 % \textbf{Cherry picked} must fixes to already released software, added retroactively to older versions of product.
 \pt Implemented \textbf{filter and sort features} for worksheet tables and columns, collaborating with backend teams to extend APIs with \textbf{tags, authors, and database metadata}.\\
-\pt Rolled out Knowledge Cards that show users information about a selected table including database, schema, and author.\\
+% \pt Rolled out Knowledge Cards that show users information about a selected table including database, schema, and author.\\
 % \pt Resolved \textbf{critical customer-reported bugs}, with an average turnaround of 1-2 days to merge changes into master.\\
 \pt Streamlined \textbf{50+ accessibility improvements} across the product's website using \textbf{React}.\\
 % \pt Worked with \textbf{React.js} and \textbf{Typescript} to ensure accessibility by \textbf{keyboard and screen readers}, especially for blind and near-sighted users.\\
@@ -111,8 +110,7 @@
 % \sectionsep
 
 
-% \subsection{Indian Institue of Technology, Indore \hfill \normalfont Remote}
-% \position{Summer Internship in Machine Learning}{Jun '22 - Aug '22}
+% \position{Indian Institute of Technology, Indore | Summer Internship in AI/ML | Python, Pytorch, Linux}{Jun '22 - Aug '22 | Remote}
 % \pt Machine Learning, especially regarding \textbf{Hyperspectral Images}\\
 % \pt Learnt about various algorithms and concepts like \textbf{Transformers,} \textbf{Neural Network} etc.\\
 % \pt Used \textbf{Python and} \textbf{Pytorch }for performing operations like denoising on \textbf{Hyperspectral Images}\\
@@ -137,7 +135,7 @@
 % \position{Photogram - An image sharing social media platform \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
 % \pt Includes \textbf{user authentication}, \textbf{post and comments creation}, \textbf{home page}, and \textbf{suggested users} to provide an engaging social media experience\\
 % \pt Created using \textbf{React} for the frontend, and \textbf{Firebase} for the backend \\
-% \pt Uses \textbf{ChakraUI} for UI elements and \textbf{Zustand} for state managements\\
+% \pt Uses \textbf{ChakraUI} for UI elements and \textbf{Zustand} for state management\\
 % \sectionsep
 
 % \projectposition{Golang Terminal News Reader \href{https://github.com/nikhilCad/go-news-reader}{[Code]}}{}
@@ -148,10 +146,9 @@
 % \sectionsep
 
 \projectposition{Golang News Reader (UI + Terminal) \href{https://github.com/nikhilCad/rss-reader-go}{[Code]}}{}
-\pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and an interactive \textbf{Terminal User Interface (TUI)}.\\
-\pt Implemented a \textbf{SQLite-based caching system} and a \textbf{RESTful API} in Go for efficient feed management and content delivery.\\
-\pt Supports full article content extraction, TTS, and integrated podcast media enclosure across \textbf{100+ feeds}.\\
-\pt Designed a \textbf{responsive UI} (web + terminal) with keyboard/mouse navigation, feed grouping, and persistent read/unread tracking.\\
+\pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and interactive \textbf{terminal/web UI}.\\
+\pt Implemented a \textbf{SQLite caching layer} and \textbf{REST API} in Go for feed management across \textbf{100+ feeds}.\\
+\pt Supports full article extraction, TTS, podcast media enclosure, feed grouping, and persistent read/unread tracking.\\
 \sectionsep
 
 % \projectposition{Golang Cloth Management API \href{https://github.com/nikhilCad/go-cloth-management}{[Code]}}{}
@@ -166,9 +163,7 @@
 % \pt Enhanced styling consistency through the application of styles with \textbf{TailwindCSS}  \\
 % 4MB is the limit for a single image file
 % \pt Integrated \textbf{UploadThing} for user-uploaded images/videos to be sent in channels, which uses \textbf{AWS S3} under the hood, with file storage up to 2GB.\\
-\pt Supported \textbf{2GB media uploads} and enabled real-time messaging with \textbf{Socket.IO} for real-time bidirectional communication.\\
-% You can explain this doc and the related YT video https://docs.uploadthing.com/blog/v7-launch
-\pt Deployed a working demo used by \textbf{50+ test users}.\\
+\pt Supported \textbf{2GB media uploads} and real-time messaging with \textbf{Socket.IO}, deployed to \textbf{50+ test users}.\\
 % \pt Ensured effective \textbf{CRUD} operations and server communication using the promise-based HTTP library \textbf{Axios}.\\
 % \pt Facilitated real-time bidirectional communication across platforms using \textbf{SocketIO}.\\
 \sectionsep
@@ -180,6 +175,7 @@
 % \pt Utilized \textbf{Zustand} for efficient state management in the frontend, providing updates on any change in the backend.\\
 % \sectionsep
 
+% Commented out to save space for a strict 1-page budget:
 % \projectposition{Created a Clicker Game Using Godot Engine \href{https://github.com/nikhilCad/reality-clicker}{[Code]} \href{https://nikhilcad.itch.io/reality-clicker}{[Live]}}{}
 % \pt Built a conventional clicker with various types of \textbf{shops/auto-clicker} upon progression \\
 % \pt Has \textbf{exponential difficulty} (similar to other games in genre) to deviate income from in game cost in log scale \\
@@ -219,13 +215,8 @@
 \section{Skills} 
 \hrulefill
 
-% \pt \textbf{Languages:} Java, Go, TypeScript, Python, C++, SQL \\
-% \pt \textbf{Frameworks \& Libraries:} React, Next.js, Node.js, Flask, Jest, Playwright, Prisma, Pandas \\
-% \pt \textbf{Tools \& Platforms:} Git, Firebase, Vercel, Heroku, VSCode, IntelliJ, LaTeX, Godot \\
-
-\pt \textbf{Core:} Java, Golang, TypeScript, React, SQL, GraphQL \\
-\pt \textbf{Proficient:} Python, C++, Node.js, Next.js, Flask \\
-\pt \textbf{Tools:} Git, Docker, Firebase, AWS (S3, EC2), Jest, Playwright \\
+\pt \textbf{Languages \& Frameworks:} TypeScript, Java, Golang, Python, C++, SQL, GraphQL, React, Next.js, Node.js, Flask \\
+\pt \textbf{Tools \& Cloud:} AWS (EC2, S3, Lambda, CloudWatch), GCP, Terraform, Docker, Firebase, Git, Jest, Playwright \\
 
 \sectionsep
 
@@ -237,26 +228,7 @@
 
 \pt Solved \textbf{600+} Data Structures and Algorithm problems on \textbf{Leetcode} \href{https://leetcode.com/thisidusedbysomeone/}{[Link]}, rated \textbf{1764} in contests.\\ 
 \pt Achieved a highest rating of \textbf{1736 (Expert)} in \textbf{Codeforces} \href{https://codeforces.com/profile/akatsumanoka}{[Link]}.\\
-\pt Published paper \textbf{Study and Analysis of Plant Disease Identification Models} for ICIC3S Conference, available on \href{https://ieeexplore.ieee.org/document/10603350}{[IEEE Xplore]} DOI: 10.1109/ICIC3S61846.2024.10603350.\\
-% \pt Awarded 5 stars in Python and C on \textbf{Hackerank} \href{https://www.hackerrank.com/nikhilcaddilac?hr_r=1}{[Link]}\\
-%\pt \textbf{Other Technologies:} PyTorch, TensorFlow, Scikit-learn, Git, Flutter, Android Studio, ReactJS, Nodejs, Bootstrap, Pandas, Geopandas, Heroku, Godot
+\pt Published ICIC3S paper on \textbf{Plant Disease Identification Models} \href{https://ieeexplore.ieee.org/document/10603350}{[IEEE Xplore]}.\\\sectionsep
 
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LEADERSHIP AND HONORS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Leadership and Honors} 
-%\hrulefill 
-
-%\begin{minipage}[t]{.8\textwidth}
-%	\pt Did \textbf{stuff} at 50000-membered as president in my dreams
-%\end{minipage}%
-%\begin{minipage}[t]{.2\textwidth}
-%	\hfill Jul '17 - May '18
-%\end{minipage}
-
-%\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-\end{document}  \documentclass[]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\end{document}
