@@ -1,7 +1,7 @@
 ---
-title: "Member of Technical Staff - Thoughtspot"
+title: "Member of Technical Staff 2 - Thoughtspot"
 description: "Thoughtspot | Hyderabad, India"
-dateString: July 2024 - Present
+dateString: July 2024 - July 2025
 draft: false
 tags: ["Java", "Golang", "React", "Typescript", "GraphQL", "Playwright", "Jest"]
 showToc: false
@@ -13,7 +13,7 @@ showCompany: true
 
 ### Description
 
-July 2024 - Present
+July 2024 - July 2025
 
 - Achieved a 90% decrease in page load times by migrating the impressions Cassandra database for the product’s homepage
 from Munshi V1 to V2, achieved by changing the schema of the database
