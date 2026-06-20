@@ -34,8 +34,9 @@ National Institute of Technology, Delhi
 Electronics and Communications Engineering
 
 Member of Technical Staff 3
+Aug 25 - Present
 ThoughtSpot India Pvt Ltd
-Python, Golang, Java
+Python, Golang, Java, Terraform
 - Architected a distributed, multi-tenant provisioning engine using Python, FastAPI, SQLAlchemy, Alembic, and Terraform on AWS (EC2, S3) to automate isolated environment deployments across 3 global regions (USA, Europe, Oceania),reducing onboarding deployment timeline from weeks to under 2 hours for 3k+ enterprise users.
 - Created SpotterCode, a custom MCP server handling 200 concurrent requests via an async, multi-worker Uvicornarchitecture and caching across 3 dedicated agents (embed, docs, API); enabling 5k+ enterprise users to embed BI websites via
 natural language, increasing embed adoption by 20%.• Engineered integrations for ThoughtSpot web plugins across Google Slides, Sheets, Microsoft Excel, and PowerPoint,enabling embedded analytics for 2k+ enterprise users.
@@ -43,6 +44,7 @@ natural language, increasing embed adoption by 20%.• Engineered integrations f
 - Prototyped Spotbuild, an AI-powered prompt-to-BI system that auto-generates Liveboard answers and worksheets,pioneering an approach later adopted by the product’s native AI features
 
 Member of Technical Staff 2
+Jul 24 - Jul 25
 ThoughtSpot India Pvt Ltd
 Java, Golang, React, Typescript, GraphQL
 - Achieved a 90% reduction in homepage load time by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified views table that stores total views per user.
@@ -54,6 +56,7 @@ Java, Golang, React, Typescript, GraphQL
 
 
 Software Engineering Intern
+Jan-Jun 24
 React, Typescript, GraphQL, Playwright, Jest
 - Migrated schema viewer from Angular to React by creating new React components and making graphQL calls to the backend. Also helped to solve various design issues in old UI during migration
 - Worked on Filter and Sort feature for worksheet tables and columns along with one team member. Collaborated with the backend team to update API to include tags, authors and database info to sort the tables.
@@ -61,6 +64,7 @@ React, Typescript, GraphQL, Playwright, Jest
 - Resolved high priority bugs in the existing code on a priority basis for the customer, with average an time of 1-2 days to merge the changes into master. Cherry picked must fixes to already released software,added retroactively to older versions of product.
 
 Software Engineering Intern
+Jun-July 23
 React, Typescript
 - Implemented 50+ accessibility improvements in the product’s website
 - Worked with React.js and Typescript to ensure website is accessible by keyboard and screen readers, especially for blind users and near-sighted users
@@ -76,21 +80,24 @@ CTC - 18.5 (Includes joining bonus 2L)
 
 
 
-Dear Hiring Team,
+Dear Hiring Manager,
 
-I'm writing to express my keen interest in this position. With 1 year of experience in software development, I believe my skills align well with the requirements of this role.
+I'm a full-stack software engineer with two years of professional experience at ThoughtSpot. During my time here, I've had the chance to ship across the entire stack, covering everything from frontend interfaces to backend services and platform infrastructure. I’d love to bring that same adaptability to your team.
 
-During my time at ThoughtSpot as a Member of Technical Staff, I was part of backend optimizations, including migrating our homepage impressions database to a newer schema, resulting in a 90% decrease in page load times. I also addressed critical security concerns by implementing a Redis-based rate limiter, and optimized analytics costs by debugging excessive Mixpanel event firing—reducing events from 20 million to just 300k, reflecting the actual usage of the product and saving 30,000 dollars in Mixpanel renewals.
+On the frontend, I focus on building scalable production React components and refining the user experience. For instance, I migrated a legacy Angular schema viewer, drove accessibility improvements across our enterprise product, and redesigned an onboarding flow that boosted AI feature adoption by 30%. I use tools like TypeScript, GraphQL, Playwright, and Jest daily, so they are a core part of my workflow rather than technologies I've just read about.
 
-As a Software Engineering Intern at ThoughtSpot, I contributed to multiple impactful initiatives across frontend development and accessibility. I migrated the schema viewer from Angular to React, built features like Filter and Sort for worksheet tables, and developed Knowledge Cards that display contextual information about worksheets and tables using GraphQL, Typescript and React. I consistently resolved high-priority bugs with fast turnaround times and backported critical fixes to earlier product versions. In a previous internship, I implemented over 50 accessibility enhancements, ensuring the product met WAI-ARIA and WCAG standards and achieved Level A certification, making it more usable for screen reader and keyboard users.
+On the backend and platform side, I really enjoy diving into complex, systemic challenges. I architected a multi-tenant provisioning engine using Python, FastAPI, and AWS Terraform, which cut environment deployment times from weeks to under two hours for over 3,000 enterprise users. I've also built an async, multi-worker MCP server handling 200 concurrent requests, led a zero-downtime migration of 50 million rows across Cassandra clusters, and secured a share API using a Redis-based rate limiter.
 
-Beyond my professional experience, I’ve also built and deployed several personal projects such as a Real-Time Chatroom App, a Golang Terminal News Reader, and Photogram, a social media image-sharing platform. These projects highlight my passion for building user-focused applications, my comfort across the stack, and my commitment to writing clean, maintainable code.
+Some of my favorite projects are the ones that happen behind the scenes. I once caught a Mixpanel overtracking issue that cut test event volume by 98.5%, saving us $30,000 ahead of a contract renewal. I also added org-aware trending to our Cassandra schema and integrated analytics across Google and Microsoft office suites. These might not be flashy headline features, but they are exactly the kind of foundational work that keeps a product reliable and a team moving forward.
 
-I am excited about the opportunity to apply my skills and enthusiasm at your company, and I’m confident I’ll be a strong fit for your engineering team. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute. PFA attached resume.
+Outside of daily feature work, I have a deep appreciation for strong algorithmic foundations. I've solved over 600 problems on LeetCode with a 1764 rating and hold an Expert rating on Codeforces. For me, competitive programming isn't just a hobby; it directly shapes how I design caching, handle data migrations, and think through API tradeoffs in production.
 
-Warm regards,
+I hold a B.Tech from NIT Delhi with a CGPA of 8.44 and have a published IEEE paper on machine learning.
+
+I would love to chat about how my full-stack experience can help your team. Thanks for your time and consideration.
+
+Best regards,
 Nikhil Kadiyan
-
 
 REFERRAL
 
@@ -122,3 +129,33 @@ My skills include Java, Golang, React, and TypeScript, and I’m a B.Tech. gradu
 My resume is available at: https://nikhilcad.github.io/resume
 
 I would be very grateful for your support with a referral. Please let me know if you need any more information from me.
+
+
+Hi NAME,
+
+I hope you're doing well.
+
+I recently came across the Software Engineer I opening on the Model Risk Governance & Review (MRGR) team at JPMorgan Chase (Job ID: 210742917) and it immediately caught my attention. Given your background at the firm, I was hoping you might be open to referring me for the role.
+
+I am currently a Member of Technical Staff 3 at ThoughtSpot, specializing in full-stack application development, distributed systems, and AI-driven automation. I believe my background aligns directly with the team's focus on building intelligent analytics tools and integrating advanced language models. A few quick highlights of my background:
+
+Full-Stack & Automation Expertise: Architected an asynchronous, multi-worker custom model context server (SpotterCode) handling concurrent requests that helps users embed the Thoughtspot website into their own applications, and built a distributed provisioning engine using Python, FastAPI, and AWS.
+
+LLM & Intelligent Solutions: Prototyped Spotbuild, an AI-powered prompt-to-BI system that auto-generates liveboard answers from natural language—experience that translates directly to MRGR's focus on LLM integration and automation.
+
+Data Scale & Performance: Carried out a zero-downtime Cassandra database migration of 50M+ rows and redesigned schemas to achieve a 90% reduction in homepage load times.
+
+I have attached my resume for your reference. If you feel my profile is a good fit, I would be incredibly grateful for a referral.
+
+PFA my resume
+
+Job link - https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742917
+
+Job ID - 210742917
+
+Thank you for your time and consideration!
+
+Best regards,
+
+Nikhil Kadiyan
++91 8800475087
