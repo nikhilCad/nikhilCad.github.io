@@ -56,7 +56,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Nikhil Kadiyan
-    subtitle: "Hi there, I am Nikhil Kadiyan. Currently working as an MTS 3 in Thoughtspot, working on creating cross-region multi tenant services, SSO support and Google workspace and Salesforce plugins for the product."
+    subtitle: "Hi there, I am Nikhil Kadiyan. Currently working as an MTS 3 in Thoughtspot, working on creating cross-region multi tenant services, SSO support, Google workspace and Salesforce plugins for the product."
     imageUrl: "images/self_portrait.jpeg" #image should be square
     imageWidth: 120
     imageHeight: 120
