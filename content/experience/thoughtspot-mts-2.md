@@ -17,6 +17,8 @@ July 2024 - July 2025
 
 - Achieved a 90% decrease in page load times by migrating the impressions Cassandra database for the product’s homepage
 from Munshi V1 to V2, achieved by changing the schema of the database
+- Introduced org awareness to the trending table of Cassandra database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.
+- Executed team-led zero downtime data migration of 50M+ rowsacross clusters in Cassandra database by implementing a background script that safely transferred data and seamlessly switched over to the new schema
 - Addressed a security vulnerability in the share API by implementing a Redis-based rate limiter after penetration testing
 exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.
 - Debugged a Mixpanel issue that led to excessive event firing during testing, causing high costs. Reduced the events from 20
