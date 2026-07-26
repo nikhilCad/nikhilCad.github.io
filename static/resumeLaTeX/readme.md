@@ -38,7 +38,7 @@ Aug 25 - Present
 ThoughtSpot India Pvt Ltd
 Python, Golang, Java, Terraform
 - Architected a distributed, multi-tenant provisioning engine using Python, FastAPI, SQLAlchemy, Alembic, and Terraform on AWS (EC2, S3) to automate isolated environment deployments across 3 global regions (USA, Europe, Oceania),reducing onboarding deployment timeline from weeks to under 2 hours for 3k+ enterprise users.
-- Created SpotterCode, a custom MCP server handling 200 concurrent requests via an async, multi-worker Uvicornarchitecture and caching across 3 dedicated agents (embed, docs, API); enabling 5k+ enterprise users to embed BI websites via
+- Created SpotterCode, a custom MCP server handling 200 concurrent requests via an async, multi-worker Uvicorn architecture and caching across 3 dedicated agents (embed, docs, API); enabling 5k+ enterprise users to embed BI websites via
 natural language, increasing embed adoption by 20%.• Engineered integrations for ThoughtSpot web plugins across Google Slides, Sheets, Microsoft Excel, and PowerPoint,enabling embedded analytics for 2k+ enterprise users.
 - Collaborated in building a Salesforce LWC plugin to embed ThoughtSpot dashboards directly within Salesforce CRM,reaching 300+ enterprise Salesforce admins, a high-value segment at the intersection of two enterprise platforms.
 - Prototyped Spotbuild, an AI-powered prompt-to-BI system that auto-generates Liveboard answers and worksheets,pioneering an approach later adopted by the product’s native AI features
@@ -135,23 +135,21 @@ Hi NAME,
 
 I hope you're doing well.
 
-I recently came across the Software Engineer I opening on the Model Risk Governance & Review (MRGR) team at JPMorgan Chase (Job ID: 210742917) and it immediately caught my attention. Given your background at the firm, I was hoping you might be open to referring me for the role.
+I recently came across a Software Engineer II opening at JPMC (Job ID: 210763350) and it immediately caught my attention. Given your background at the firm, I was hoping you might be open to referring me for the role.
 
-I am currently a Member of Technical Staff 3 at ThoughtSpot, specializing in full-stack application development, distributed systems, and AI-driven automation. I believe my background aligns directly with the team's focus on building intelligent analytics tools and integrating advanced language models. A few quick highlights of my background:
+I am currently a Member of Technical Staff 3 at ThoughtSpot, where I work on distributed systems, AI-powered developer tools, cloud infrastructure, and full-stack product development. I believe my experience aligns well with the role. A few highlights from my background:
 
-Full-Stack & Automation Expertise: Architected an asynchronous, multi-worker custom model context server (SpotterCode) handling concurrent requests that helps users embed the Thoughtspot website into their own applications, and built a distributed provisioning engine using Python, FastAPI, and AWS.
-
-LLM & Intelligent Solutions: Prototyped Spotbuild, an AI-powered prompt-to-BI system that auto-generates liveboard answers from natural language—experience that translates directly to MRGR's focus on LLM integration and automation.
-
-Data Scale & Performance: Carried out a zero-downtime Cassandra database migration of 50M+ rows and redesigned schemas to achieve a 90% reduction in homepage load times.
+- Distributed Systems & Cloud: Architected a distributed, multi-tenant provisioning engine using Python, FastAPI, SQLAlchemy, Terraform, and AWS, automating isolated environment deployments across three global regions and reducing product deployment time from weeks to under 2 hours.
+- AI & Developer Platforms: Built SpotterCode, a horizontally scalable MCP server handling 200 concurrent requests across specialized AI agents, enabling natural-language embedding workflows for 5,000+ enterprise users. I also prototyped Spotbuild, an AI-powered prompt-to-BI system that was later adopted by the product's native AI capabilities.
+- Scalability & Performance: Contributed to large-scale backend initiatives including a zero-downtime migration of 50M+ Cassandra rows, achieving a 90% reduction in homepage load time, along with performance optimizations, security improvements, and enterprise integrations across Microsoft 365, Google Workspace, and Salesforce.
 
 I have attached my resume for your reference. If you feel my profile is a good fit, I would be incredibly grateful for a referral.
 
 PFA my resume
 
-Job link - https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742917
+Job link - https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763350/?utm_medium=jobshare&utm_source=External+Job+Share
 
-Job ID - 210742917
+Job ID - 210763350
 
 Thank you for your time and consideration!
 
