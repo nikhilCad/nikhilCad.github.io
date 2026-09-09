@@ -144,6 +144,11 @@
 % \pt Implemented content fetching, parsing of full article from url, and an \textbf{API} using \textbf{Go} supporting retrieval and addition of feeds.\\
 % \sectionsep
 
+% Built a NEAT (NeuroEvolution of Augmenting Topologies) reinforcement-learning agent from scratch in C++ (no ML libraries, no gradient descent) that evolves both network topology and weights — starting from a minimal, hidden-node-free graph and growing hidden nodes/connections purely through training — to play a twin-stick space shooter, improving score 52x (400 → 20,800) and survival time 18x (15s → 278s) over 6,000 generations.
+% Engineered a 41-feature real-time game-state representation (10 player features, 7 features each for the 4 nearest enemies, 3 aggregate features) feeding a self-growing neural architecture, plus an input-sensitivity report analyzing per-feature connection weight across 1,000+ evolved genomes to guide feature-set tuning.
+% Designed a parallelized experiment framework for population-size sweeps, training multiple configurations x repeats concurrently across CPU threads, cutting a 4-repeat, 6,000-generation, population-80 sweep to ~12 minutes wall-clock time (704s parallel vs. 1,415s of aggregate compute).
+% Implemented deterministic, seed-based reproducibility across the entire training pipeline (episode simulation, mutation, crossover, selection) so any run can be reproduced byte-for-byte independent of core count or thread scheduling, plus automated checkpoint/GIF recording and genome network visualization tooling.
+
 \projectposition{Golang News Reader (UI + Terminal) \href{https://github.com/nikhilCad/rss-reader-go}{[Code]}}{}
 \pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and an interactive \textbf{Terminal User Interface (TUI)}.\\
 \pt Implemented a \textbf{SQLite-based caching system} and a \textbf{RESTful API} in Go for efficient feed management and content delivery.\\
