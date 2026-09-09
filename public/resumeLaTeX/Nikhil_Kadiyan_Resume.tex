@@ -149,6 +149,13 @@
 % Designed a parallelized experiment framework for population-size sweeps, training multiple configurations x repeats concurrently across CPU threads, cutting a 4-repeat, 6,000-generation, population-80 sweep to ~12 minutes wall-clock time (704s parallel vs. 1,415s of aggregate compute).
 % Implemented deterministic, seed-based reproducibility across the entire training pipeline (episode simulation, mutation, crossover, selection) so any run can be reproduced byte-for-byte independent of core count or thread scheduling, plus automated checkpoint/GIF recording and genome network visualization tooling.
 
+\projectposition{NEAT Twin-Stick Shooter Agent \href{https://github.com/nikhilCad/shooter-neuroevolution}{[Code]}}{}
+\pt Built a \textbf{NEAT (NeuroEvolution of Augmenting Topologies)} agent from scratch in \textbf{C++}, evolving both neural-network topology and weights without ML libraries or gradient descent to play a twin-stick space shooter.\\
+\pt Engineered a \textbf{41-feature real-time game-state representation} and self-growing neural architecture, improving score \textbf{52x} (400 $\rightarrow$ 20,800) and survival time \textbf{18x} (15s $\rightarrow$ 278s) over 6,000 generations.\\
+\pt Designed a \textbf{parallelized experiment framework} for population-size sweeps and repeated trials across CPU threads, reducing a 4-repeat, 6,000-generation, population-80 sweep to \textbf{~12 minutes} wall-clock time.\\
+\pt Implemented \textbf{deterministic seed-based reproducibility} across simulation, mutation, crossover, and selection, alongside automated checkpoint/GIF recording, genome visualization, and input-sensitivity analysis across 1,000+ evolved genomes.\\
+\sectionsep
+
 \projectposition{Golang News Reader (UI + Terminal) \href{https://github.com/nikhilCad/rss-reader-go}{[Code]}}{}
 \pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and an interactive \textbf{Terminal User Interface (TUI)}.\\
 \pt Implemented a \textbf{SQLite-based caching system} and a \textbf{RESTful API} in Go for efficient feed management and content delivery.\\

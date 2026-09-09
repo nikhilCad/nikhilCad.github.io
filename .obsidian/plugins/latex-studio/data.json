@@ -1,0 +1,8 @@
+{
+  "engine": "tectonic",
+  "latexmkPath": "latexmk",
+  "tectonicPath": "tectonic",
+  "compileOnSave": false,
+  "compileDebounceMs": 2500,
+  "openPdfAfterCompile": true
+}

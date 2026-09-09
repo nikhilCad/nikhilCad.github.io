@@ -1,0 +1,9 @@
+{
+  "id": "latex-studio",
+  "name": "LaTeX Studio",
+  "version": "0.2.2",
+  "minAppVersion": "1.8.0",
+  "description": "Edit complete LaTeX projects, compile them locally, inspect diagnostics, and preview PDFs.",
+  "author": "Brook and contributors",
+  "isDesktopOnly": true
+}

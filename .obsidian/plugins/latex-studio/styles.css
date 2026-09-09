@@ -1,0 +1,43 @@
+.latex-studio-editor-view {
+  height: 100%;
+  padding: 0;
+}
+
+.latex-studio-editor-view .cm-editor {
+  height: 100%;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-monospace);
+}
+
+.latex-studio-editor-view .cm-scroller {
+  overflow: auto;
+}
+
+.latex-studio-editor-view .cm-gutters {
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  border-right: 1px solid var(--background-modifier-border);
+}
+
+.latex-studio-pdf-view {
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.latex-studio-pdf-view iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: white;
+}
+
+.latex-studio-pdf-empty {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  padding: 2rem;
+  color: var(--text-muted);
+  text-align: center;
+}
