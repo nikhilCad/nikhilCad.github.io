@@ -1,4 +1,8 @@
+```
+cd static/resumeLaTeX
 ./tectonic Nikhil_Kadiyan_Resume.tex
+```
+
 
 https://tectonic-typesetting.github.io/en-US/index.html
 
