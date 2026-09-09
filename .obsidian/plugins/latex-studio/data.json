@@ -1,7 +1,7 @@
 {
   "engine": "tectonic",
   "latexmkPath": "latexmk",
-  "tectonicPath": "tectonic",
+  "tectonicPath": "/home/nikhil/Documents/Obsidian/nikhilCad.github.io/static/resumeLaTeX/tectonic",
   "compileOnSave": false,
   "compileDebounceMs": 2500,
   "openPdfAfterCompile": true

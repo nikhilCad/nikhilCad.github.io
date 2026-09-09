@@ -1,62 +1,145 @@
-\documentclass[]{Nikhil_Kadiyan_Resume}
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage{hyperref}
-\usepackage{fontawesome5}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
 
 \pagestyle{fancy}
-\fancyhf{}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
-\hypersetup{%
-    colorlinks=false,% hyperlinks will be black colour
-    pdfborderstyle={/S/U/W 0.25}% border style will be underline of width 0.25pt
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
 }
- 
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     TITLE NAME
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Nikhil Kadiyan}{
-    % xxx-xxx-xxxx -> Phone Number
-    % \normalfont Hyderabad, India \hfill \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill +91 8800475087 \hfill \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{LinkedIn:nikhilcad} \hfill \href{https://github.com/nikhilcad}{Github:nikhilcad}
-    {\faMapMarker }Hyderabad, India \hfill {\faAt } \href{mailto:nikhilkadiyan20@gmail.com}{nikhilkadiyan20@gmail.com} \hfill {\faPhone* } +91 8800475087 \hfill {\faGlobe } \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill {\faLinkedin } \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{nikhilcad} \hfill {\faGithub } \href{https://github.com/nikhilcad}{nikhilcad}
-    }
+%----------HEADING----------
+% xxx-xxx-xxxx -> Phone Number
+% \normalfont Hyderabad, India \hfill \href{mailto:nikhil.kadiyan.20@gmail.com}{nikhil.kadiyan.20@gmail.com} \hfill +91 8800475087 \hfill \href{https://nikhilcad.github.io/}{Portfolio Website} \hfill \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{LinkedIn:nikhilcad} \hfill \href{https://github.com/nikhilcad}{Github:nikhilcad}
 
-\descript{}
+\begin{center}
+    \textbf{\Huge \scshape Nikhil Kadiyan} \\ \vspace{1pt}
+    \small Hyderabad, India $|$ +91 8800475087 $|$ 
+    \href{mailto:nikhilkadiyan20@gmail.com}{\underline{nikhilkadiyan20@gmail.com}} $|$ 
+    \href{https://nikhilcad.github.io/}{\underline{nikhilcad.github.io}} $|$
+    \href{https://www.linkedin.com/in/nikhil-kadiyan-3a044b1a0/}{\underline{linkedin.com/in/nikhilcad}} $|$
+    \href{https://github.com/nikhilcad}{\underline{github.com/nikhilcad}}
+\end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------EDUCATION-----------
 \section{Education}
-\hrulefill
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology Delhi}{Delhi, India}
+      {Bachelor of Technology (CGPA: 8.44)}{2020 -- 2024}
+    % \resumeSubheading
+    %   {Kendriya Vidyalaya, Shalimar Bagh}{Delhi, India}
+    %   {Class 12 - 94 \%}{2020}
+    % \resumeSubheading
+    %   {Kendriya Vidyalaya, Shalimar Bagh}{Delhi, India}
+    %   {Class 10 - 91.8 \%}{2018}
+  \resumeSubHeadingListEnd
 
-\subsection{National Institute of Technology Delhi \hfill \normalfont 2020-24}
-\projectposition{Bachelor of Technology (CGPA: 8.44) \normalfont}{ }
 
-\sectionsep
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
 
-% \subsection{Kendriya Vidyalaya, Shalimar Bagh \hfill \normalfont Delhi, India}
-% \position{Class 12 - 94 \% \normalfont}{2020}
-% \position{Class 10 - 91.8 \% \normalfont}{2018}
-
-% \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experience} 
-\hrulefill
-
-\position{ThoughtSpot | Member of Technical Staff 3 | Python, Golang, Java}{Aug '25 - Present | Hyderabad}
-\pt Architected a \textbf{distributed, multi-tenant provisioning engine} using \textbf{Python, FastAPI, SQLAlchemy, Alembic,} and \textbf{Terraform on AWS} (EC2, S3) to automate isolated environment deployments across \textbf{3 global regions} (USA, Europe, Oceania), reducing onboarding deployment timeline from \textbf{weeks to under 2 hours} for \textbf{3k+ enterprise users}.\\
-\pt Created \textbf{SpotterCode}, a custom \textbf{MCP server} handling \textbf{200 concurrent requests} via an async, multi-worker and horizontally scalable architecture and caching across 3 dedicated agents (embed, docs, API); enabling \textbf{5k+ enterprise users} to embed BI websites via natural language, \textbf{increasing embed adoption by 20\%}.\\
-\pt Engineered enterprise \textbf{SSO invitation and authentication flows}, integrating with \textbf{Okta} and evaluating additional identity providers including \textbf{LinkedIn, GitHub, Discord, and Twitter}; resolved activation and identity-mismatch edge cases to maintain consistent user and invitation states.\\
-\pt Improved \textbf{Sparkflow CSV upload latency by 67\%}, reducing upload time from \textbf{30 seconds to 10 seconds} by eliminating a redundant database call through \textbf{BigQuery-aware request handling}.\\
-\pt Engineered integrations for ThoughtSpot web plugins across \textbf{Google Slides, Sheets, Microsoft Excel, and PowerPoint}, enabling embedded analytics for \textbf{2k+ enterprise users}.\\
-\pt Collaborated in building a \textbf{Salesforce LWC plugin} to embed ThoughtSpot dashboards directly within Salesforce CRM, reaching \textbf{300+ enterprise Salesforce admins}, a high-value segment at the intersection of two enterprise platforms.\\
-\pt Prototyped \textbf{Spotbuild}, an \textbf{AI-powered prompt-to-BI system} that auto-generates Liveboard answers and worksheets, pioneering an approach later adopted by the product's native AI features.\\
-\sectionsep
+    \resumeSubheading
+      {ThoughtSpot}{Hyderabad, India}
+      {Member of Technical Staff 3 $|$ \emph{Python, Golang, Java}}{Aug. 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Architected a \textbf{distributed, multi-tenant provisioning engine} using \textbf{Python, FastAPI, SQLAlchemy, Alembic,} and \textbf{Terraform on AWS} (EC2, S3) to automate isolated environment deployments across \textbf{3 global regions} (USA, Europe, Oceania), reducing onboarding deployment timeline from \textbf{weeks to under 2 hours} for \textbf{3k+ enterprise users}.}
+        \resumeItem{Created \textbf{SpotterCode}, a custom \textbf{MCP server} handling \textbf{200 concurrent requests} via an async, multi-worker and horizontally scalable architecture and caching across 3 dedicated agents (embed, docs, API); enabling \textbf{5k+ enterprise users} to embed BI websites via natural language, \textbf{increasing embed adoption by 20\%}.}
+        \resumeItem{Engineered enterprise \textbf{SSO invitation and authentication flows}, integrating with \textbf{Okta} and evaluating additional identity providers including \textbf{LinkedIn, GitHub, Discord, and Twitter}; resolved activation and identity-mismatch edge cases to maintain consistent user and invitation states.}
+        \resumeItem{Improved \textbf{Sparkflow CSV upload latency by 67\%}, reducing upload time from \textbf{30 seconds to 10 seconds} by eliminating a redundant database call through \textbf{BigQuery-aware request handling}.}
+        \resumeItem{Engineered integrations for ThoughtSpot web plugins across \textbf{Google Slides, Sheets, Microsoft Excel, and PowerPoint}, enabling embedded analytics for \textbf{2k+ enterprise users}.}
+        \resumeItem{Collaborated in building a \textbf{Salesforce LWC plugin} to embed ThoughtSpot dashboards directly within Salesforce CRM, reaching \textbf{300+ enterprise Salesforce admins}, a high-value segment at the intersection of two enterprise platforms.}
+        \resumeItem{Prototyped \textbf{Spotbuild}, an \textbf{AI-powered prompt-to-BI system} that auto-generates Liveboard answers and worksheets, pioneering an approach later adopted by the product's native AI features.}
+      \resumeItemListEnd
 
 % Munshi -reduced load times -worked on trending
 % MunshiV2 reduced time from 40 seconds to 2-3 seconds - db schema - instead of individual lookup we made it a single table
@@ -84,168 +167,210 @@
 %  Bug fixing / ops
 % Munshi Org Aware - Made Cassandra database that handles our views org aware. Org are independent sheels within Thoughtspot
 % KPI alerts for Slack
-\position{ThoughtSpot | Member of Technical Staff 2 | Java, Golang, React, Typescript, GraphQL}{Jul '24 - Jul '25 | Hyderabad}
-\pt Achieved a \textbf{90\% reduction in homepage load time} by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified table storing total views per user.\\
-\pt Introduced \textbf{org awareness} to the trending table of \textbf{Cassandra} database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.\\
-\pt Executed team-led \textbf{zero downtime data migration} of \textbf{50M+} rows across clusters in \textbf{Cassandra} database by implementing a background script that safely transferred data and seamlessly switched over to the new schema.\\
-\pt Redesigned the user onboarding to highlight \textbf{AI-powered Spotter}, guiding users through creating connections, importing data, and asking questions via natural language, resulting in improved feature adoption by 30\%.\\
-\pt Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.\\
-\pt \textbf{Diagnosed and patched} a Mixpanel overtracking issue ahead of a renewal, \textbf{reducing test event volume by 98.5\% (20M to 300K)} and \textbf{saving \$30K}.\\ % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
-\pt Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without opening the BI tool, increasing notification click rate by 20\%.\\
-\sectionsep
 
-\position{ThoughtSpot | Software Engineering Intern | React, Typescript, Playwright, Jest}{Jun - Jul '23 | Jan - Jun '24 | Hyderabad}
-\pt Migrated schema viewer from Angular to React by building 15+ React components and integrating GraphQL APIs, improving maintainability and reducing page load latency. Also rectified design issues in the legacy UI during migration.\\
-% Mention customer was Apple, and how old schema viewer was only because in angular we were taking in all data at once
-% But now that data is separated into different requests which frontend combines to show the data
-% Async rendering or whatever 
-% \textbf{Cherry picked} must fixes to already released software, added retroactively to older versions of product.
-\pt Implemented \textbf{filter and sort features} for worksheet tables and columns, collaborating with backend teams to extend APIs with \textbf{tags, authors, and database metadata}.\\
-% \pt Rolled out Knowledge Cards that show users information about a selected table including database, schema, and author.\\
-% \pt Resolved \textbf{critical customer-reported bugs}, with an average turnaround of 1-2 days to merge changes into master.\\
-\pt Streamlined \textbf{50+ accessibility improvements} across the product's website using \textbf{React}.\\
-% \pt Worked with \textbf{React.js} and \textbf{Typescript} to ensure accessibility by \textbf{keyboard and screen readers}, especially for blind and near-sighted users.\\
-% \pt Collaborated with the team to ensure that the website complied with \textbf{WAI-ARIA and WCAG} international standards, achieving \textbf{Level A} accessibility certification for legal compliance.\\
-\sectionsep
+    \resumeSubheading
+      {ThoughtSpot}{Hyderabad, India}
+      {Member of Technical Staff 2 $|$ \emph{Java, Golang, React, Typescript, GraphQL}}{Jul. 2024 -- Jul. 2025}
+      \resumeItemListStart
+        \resumeItem{Achieved a \textbf{90\% reduction in homepage load time} by migrating the internal Cassandra impressions database to a new schema, replacing per-view lookups with a unified table storing total views per user.}
+        \resumeItem{Introduced \textbf{org awareness} to the trending table of \textbf{Cassandra} database by creating a new table with altered schema, allowing each isolated org in the instance to have separate trending objects.}
+        \resumeItem{Executed team-led \textbf{zero downtime data migration} of \textbf{50M+} rows across clusters in \textbf{Cassandra} database by implementing a background script that safely transferred data and seamlessly switched over to the new schema.}
+        \resumeItem{Redesigned the user onboarding to highlight \textbf{AI-powered Spotter}, guiding users through creating connections, importing data, and asking questions via natural language, resulting in improved feature adoption by 30\%.}
+        \resumeItem{Addressed a \textbf{security vulnerability} in the share API by implementing a Redis-based rate limiter after penetration testing exposed a missing rate limit, effectively controlling API request rates and mitigating abuse risks.}
+        \resumeItem{\textbf{Diagnosed and patched} a Mixpanel overtracking issue ahead of a renewal, \textbf{reducing test event volume by 98.5\% (20M to 300K)} and \textbf{saving \$30K}. % 30 grand that might have gone for the new plan, we bought for 23K finally, else it would have been 50K range
+        }
+        \resumeItem{Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without opening the BI tool, increasing notification click rate by 20\%.}
+      \resumeItemListEnd
 
-% \position{ThoughtSpot | Software Engineering Intern | React, Typescript, Jest}{Jun '23 - Jul '23 | Hyderabad}
-% \sectionsep
+    \resumeSubheading
+      {ThoughtSpot}{Hyderabad, India}
+      {Software Engineering Intern $|$ \emph{React, Typescript, Playwright, Jest}}{Jun. 2023 -- Jul. 2023 $|$ Jan. 2024 -- Jun. 2024}
+      \resumeItemListStart
+        \resumeItem{Migrated schema viewer from Angular to React by building 15+ React components and integrating GraphQL APIs, improving maintainability and reducing page load latency. Also rectified design issues in the legacy UI during migration.}
+        % Mention customer was Apple, and how old schema viewer was only because in angular we were taking in all data at once
+        % But now that data is separated into different requests which frontend combines to show the data
+        % Async rendering or whatever 
+        % \resumeItem{\textbf{Cherry picked} must fixes to already released software, added retroactively to older versions of product.}
+        \resumeItem{Implemented \textbf{filter and sort features} for worksheet tables and columns, collaborating with backend teams to extend APIs with \textbf{tags, authors, and database metadata}.}
+        % \resumeItem{Rolled out Knowledge Cards that show users information about a selected table including database, schema, and author.}
+        % \resumeItem{Resolved \textbf{critical customer-reported bugs}, with an average turnaround of 1-2 days to merge changes into master.}
+        \resumeItem{Streamlined \textbf{50+ accessibility improvements} across the product's website using \textbf{React}.}
+        % \resumeItem{Worked with \textbf{React.js} and \textbf{Typescript} to ensure accessibility by \textbf{keyboard and screen readers}, especially for blind and near-sighted users.}
+        % \resumeItem{Collaborated with the team to ensure that the website complied with \textbf{WAI-ARIA and WCAG} international standards, achieving \textbf{Level A} accessibility certification for legal compliance.}
+      \resumeItemListEnd
+
+% \resumeSubheading
+%   {ThoughtSpot}{Hyderabad, India}
+%   {Software Engineering Intern $|$ \emph{React, Typescript, Jest}}{Jun. 2023 -- Jul. 2023}
+
+% \resumeSubheading
+%   {Indian Institute of Technology, Indore}{Remote}
+%   {Summer Internship in AI/ML $|$ \emph{Python, Pytorch, Linux}}{Jun. 2022 -- Aug. 2022}
+%   \resumeItemListStart
+%     \resumeItem{Machine Learning, especially regarding \textbf{Hyperspectral Images}}
+%     \resumeItem{Learnt about various algorithms and concepts like \textbf{Transformers,} \textbf{Neural Network} etc.}
+%     \resumeItem{Used \textbf{Python and} \textbf{Pytorch }for performing operations like denoising on \textbf{Hyperspectral Images}}
+%   \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
 
 
-% \position{Indian Institute of Technology, Indore | Summer Internship in AI/ML | Python, Pytorch, Linux}{Jun '22 - Aug '22 | Remote}
-% \pt Machine Learning, especially regarding \textbf{Hyperspectral Images}\\
-% \pt Learnt about various algorithms and concepts like \textbf{Transformers,} \textbf{Neural Network} etc.\\
-% \pt Used \textbf{Python and} \textbf{Pytorch }for performing operations like denoising on \textbf{Hyperspectral Images}\\
-% \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PROJECTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------PROJECTS-----------
 \section{Project Highlights}
-\hrulefill
+    \resumeSubHeadingListStart
 
 %%%%% SIMPLIFIED FORMAT %%%%%
-% \pt Attention-based Joint Detection of Object and Semantic Part in \textbf{PyTorch} \href{https://arxiv.org/abs/2007.02419}{[\textbf{arXiv:2007.02419}]} \href{https://github.com/kevalmorabia97/Object-and-Semantic-Part-Detection-pyTorch}{[\textbf{Code}]}
-% \pt Built an application in \textbf{JavaFX} for \textbf{Frequent Patterns \& Association Rule Mining} using Apriori algorithm \href{https://github.com/kevalmorabia97/FPARM-Frequent-Patterns-and-Association-Rule-Miner}{[\textbf{Code}]}
+% \resumeItem{Attention-based Joint Detection of Object and Semantic Part in \textbf{PyTorch} \href{https://arxiv.org/abs/2007.02419}{[\textbf{arXiv:2007.02419}]} \href{https://github.com/kevalmorabia97/Object-and-Semantic-Part-Detection-pyTorch}{[\textbf{Code}]}}
+% \resumeItem{Built an application in \textbf{JavaFX} for \textbf{Frequent Patterns \& Association Rule Mining} using Apriori algorithm \href{https://github.com/kevalmorabia97/FPARM-Frequent-Patterns-and-Association-Rule-Miner}{[\textbf{Code}]}}
 
 %%%%% ELABORATED FORMAT %%%%%
-% \position{Automatic Sanitizing Line Following Robot(4th Semester Project)}{Jun '22}
-% \pt Robot capable of \textbf{following an already given path} and sanitizing its surroundings \\
-% \pt Robot maintains \textbf{social distancing} by buzzing when two people stand too close \\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Automatic Sanitizing Line Following Robot(4th Semester Project)}}{Jun. 2022}
+%     \resumeItemListStart
+%       \resumeItem{Robot capable of \textbf{following an already given path} and sanitizing its surroundings}
+%       \resumeItem{Robot maintains \textbf{social distancing} by buzzing when two people stand too close}
+%     \resumeItemListEnd
 
-% \position{Photogram - An image sharing social media platform \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
-% \pt Includes \textbf{user authentication}, \textbf{post and comments creation}, \textbf{home page}, and \textbf{suggested users} to provide an engaging social media experience\\
-% \pt Created using \textbf{React} for the frontend, and \textbf{Firebase} for the backend \\
-% \pt Uses \textbf{ChakraUI} for UI elements and \textbf{Zustand} for state management\\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Photogram - An image sharing social media platform} \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Includes \textbf{user authentication}, \textbf{post and comments creation}, \textbf{home page}, and \textbf{suggested users} to provide an engaging social media experience}
+%       \resumeItem{Created using \textbf{React} for the frontend, and \textbf{Firebase} for the backend}
+%       \resumeItem{Uses \textbf{ChakraUI} for UI elements and \textbf{Zustand} for state management}
+%     \resumeItemListEnd
 
-% \projectposition{Golang Terminal News Reader \href{https://github.com/nikhilCad/go-news-reader}{[Code]}}{}
-% \pt Created a terminal news reader in \textbf{Golang} using \textbf{Bubbletea}, for easy navigation of parsed news and YouTube feeds.\\
-% \pt Integrated \textbf{SQLite} for efficient storage and retrieval of feeds, optimizing data management within the terminal. \\
-% % \pt Implemented content fetching from the URL to \textbf{parse} and display full article text instead of truncated feed contents.\\
-% \pt Implemented content fetching, parsing of full article from url, and an \textbf{API} using \textbf{Go} supporting retrieval and addition of feeds.\\
-% \sectionsep
-
+% \resumeProjectHeading
+%     {\textbf{Golang Terminal News Reader} \href{https://github.com/nikhilCad/go-news-reader}{[Code]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Created a terminal news reader in \textbf{Golang} using \textbf{Bubbletea}, for easy navigation of parsed news and YouTube feeds.}
+%       \resumeItem{Integrated \textbf{SQLite} for efficient storage and retrieval of feeds, optimizing data management within the terminal.}
+%       % \resumeItem{Implemented content fetching from the URL to \textbf{parse} and display full article text instead of truncated feed contents.}
+%       \resumeItem{Implemented content fetching, parsing of full article from url, and an \textbf{API} using \textbf{Go} supporting retrieval and addition of feeds.}
+%     \resumeItemListEnd
 
 % Built a NEAT (NeuroEvolution of Augmenting Topologies) reinforcement-learning agent from scratch in C++ (no ML libraries, no gradient descent) that evolves both network topology and weights — starting from a minimal, hidden-node-free graph and growing hidden nodes/connections purely through training — to play a twin-stick space shooter, improving score 52x (400 → 20,800) and survival time 18x (15s → 278s) over 6,000 generations.
 % Engineered a 41-feature real-time game-state representation (10 player features, 7 features each for the 4 nearest enemies, 3 aggregate features) feeding a self-growing neural architecture, plus an input-sensitivity report analyzing per-feature connection weight across 1,000+ evolved genomes to guide feature-set tuning.
 % Designed a parallelized experiment framework for population-size sweeps, training multiple configurations x repeats concurrently across CPU threads, cutting a 4-repeat, 6,000-generation, population-80 sweep to ~12 minutes wall-clock time (704s parallel vs. 1,415s of aggregate compute).
 % Implemented deterministic, seed-based reproducibility across the entire training pipeline (episode simulation, mutation, crossover, selection) so any run can be reproduced byte-for-byte independent of core count or thread scheduling, plus automated checkpoint/GIF recording and genome network visualization tooling.
 
-\projectposition{NEAT Twin-Stick Shooter Agent \href{https://github.com/nikhilCad/shooter-neuroevolution}{[Code]}}{}
-\pt Built a \textbf{NEAT (NeuroEvolution of Augmenting Topologies)} agent from scratch in \textbf{C++}, evolving both neural-network topology and weights without ML libraries or gradient descent to play a twin-stick space shooter.\\
-\pt Engineered a \textbf{41-feature real-time game-state representation} and self-growing neural architecture, improving score \textbf{52x} (400 $\rightarrow$ 20,800) and survival time \textbf{18x} (15s $\rightarrow$ 278s) over 6,000 generations.\\
-\pt Designed a \textbf{parallelized experiment framework} for population-size sweeps and repeated trials across CPU threads, reducing a 4-repeat, 6,000-generation, population-80 sweep to \textbf{~12 minutes} wall-clock time.\\
-\pt Implemented \textbf{deterministic seed-based reproducibility} across simulation, mutation, crossover, and selection, alongside automated checkpoint/GIF recording, genome visualization, and input-sensitivity analysis across 1,000+ evolved genomes.\\
-\sectionsep
+      \resumeProjectHeading
+          {\textbf{NEAT Twin-Stick Shooter Agent} \href{https://github.com/nikhilCad/shooter-neuroevolution}{\underline{[Code]}}}{}
+          \resumeItemListStart
+            \resumeItem{Built a \textbf{NEAT (NeuroEvolution of Augmenting Topologies)} agent from scratch in \textbf{C++}, evolving both neural-network topology and weights without ML libraries or gradient descent to play a twin-stick space shooter.}
+            \resumeItem{Engineered a \textbf{41-feature real-time game-state representation} and self-growing neural architecture, improving score \textbf{52x} ($400 \rightarrow 20,800$) and survival time \textbf{18x} (15s $\rightarrow$ 278s) over 6,000 generations.}            \resumeItem{Designed a \textbf{parallelized experiment framework} for population-size sweeps and repeated trials across CPU threads, reducing a 4-repeat, 6,000-generation, population-80 sweep to \textbf{~12 minutes} wall-clock time.}
+            \resumeItem{Implemented \textbf{deterministic seed-based reproducibility} across simulation, mutation, crossover, and selection, alongside automated checkpoint/GIF recording, genome visualization, and input-sensitivity analysis across 1,000+ evolved genomes.}
+          \resumeItemListEnd
 
-\vspace{50pt}
+      \resumeProjectHeading
+          {\textbf{Golang News Reader (UI + Terminal)} \href{https://github.com/nikhilCad/rss-reader-go}{\underline{[Code]}}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and interactive \textbf{terminal/web UI}.}
+            \resumeItem{Implemented a \textbf{SQLite caching layer} and \textbf{REST API} in Go for feed management across \textbf{100+ feeds}.}
+            \resumeItem{Supports full article extraction, TTS, podcast media enclosure, feed grouping, and persistent read/unread tracking.}
+          \resumeItemListEnd
 
-\projectposition{Golang News Reader (UI + Terminal) \href{https://github.com/nikhilCad/rss-reader-go}{[Code]}}{}
-\pt Developed a full-stack RSS reader with a \textbf{Go backend}, \textbf{Preact frontend}, and interactive \textbf{terminal/web UI}.\\
-\pt Implemented a \textbf{SQLite caching layer} and \textbf{REST API} in Go for feed management across \textbf{100+ feeds}.\\
-\pt Supports full article extraction, TTS, podcast media enclosure, feed grouping, and persistent read/unread tracking.\\
-\sectionsep
+% \resumeProjectHeading
+%     {\textbf{Golang Cloth Management API} \href{https://github.com/nikhilCad/go-cloth-management}{[Code]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Developed a comprehensive cloth management API in \textbf{Golang} to handle inventory and order management.}
+%       \resumeItem{Implemented \textbf{JWT token authentication} for secure access and operations within the API.}
+%       \resumeItem{Created endpoints for updating cloth data and managing customer orders, ensuring efficient and reliable data transactions.}
+%       \resumeItem{Updated data to a \textbf{MongoDB} database for robust and scalable data storage and retrieval.}
+%     \resumeItemListEnd
 
-% \projectposition{Golang Cloth Management API \href{https://github.com/nikhilCad/go-cloth-management}{[Code]}}{}
-% \pt Developed a comprehensive cloth management API in \textbf{Golang} to handle inventory and order management.\\
-% \pt Implemented \textbf{JWT token authentication} for secure access and operations within the API.\\
-% \pt Created endpoints for updating cloth data and managing customer orders, ensuring efficient and reliable data transactions.\\
-% \pt Updated data to a \textbf{MongoDB} database for robust and scalable data storage and retrieval.\\
-% \sectionsep
-\projectposition{Real Time Chatroom Application \href{https://github.com/nikhilCad/real-time-chatroom}{[Code+Screenshots]}}{}
-% \pt Implemented a Real Time Chatroom with \textbf{Next.js} for seamless server-side rendering, and \textbf{Clerk} for authentication.\\
-\pt Built a multi-platform real-time chat system using \textbf{Next.js, Clerk authentication, and AWS S3 storage}.\\
-% \pt Enhanced styling consistency through the application of styles with \textbf{TailwindCSS}  \\
-% 4MB is the limit for a single image file
-% \pt Integrated \textbf{UploadThing} for user-uploaded images/videos to be sent in channels, which uses \textbf{AWS S3} under the hood, with file storage up to 2GB.\\
-\pt Supported \textbf{2GB media uploads} and real-time messaging with \textbf{Socket.IO}, deployed to \textbf{50+ test users}.\\
-% \pt Ensured effective \textbf{CRUD} operations and server communication using the promise-based HTTP library \textbf{Axios}.\\
-% \pt Facilitated real-time bidirectional communication across platforms using \textbf{SocketIO}.\\
-\sectionsep
+      \resumeProjectHeading
+          {\textbf{Real Time Chatroom Application} \href{https://github.com/nikhilCad/real-time-chatroom}{\underline{[Code+Screenshots]}}}{}
+          \resumeItemListStart
+            % \resumeItem{Implemented a Real Time Chatroom with \textbf{Next.js} for seamless server-side rendering, and \textbf{Clerk} for authentication.}
+            \resumeItem{Built a multi-platform real-time chat system using \textbf{Next.js, Clerk authentication, and AWS S3 storage}.}
+            % \resumeItem{Enhanced styling consistency through the application of styles with \textbf{TailwindCSS}}
+            % 4MB is the limit for a single image file
+            % \resumeItem{Integrated \textbf{UploadThing} for user-uploaded images/videos to be sent in channels, which uses \textbf{AWS S3} under the hood, with file storage up to 2GB.}
+            \resumeItem{Supported \textbf{2GB media uploads} and real-time messaging with \textbf{Socket.IO}, deployed to \textbf{50+ test users}.}
+            % \resumeItem{Ensured effective \textbf{CRUD} operations and server communication using the promise-based HTTP library \textbf{Axios}.}
+            % \resumeItem{Facilitated real-time bidirectional communication across platforms using \textbf{SocketIO}.}
+          \resumeItemListEnd
 
-%\projectposition{Photogram - An image sharing social media platform \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
-%\pt Launched Photogram, an interactive image-sharing platform with \textbf{secure user authentication, posts, comments, homepage, and suggested users} using \textbf{Firebase}.\\
-% \pt Developed \textbf{posts, comments, homepage, and suggested users} functionality for enhanced user engagement.\\
-% \pt Developed responsive UI using \textbf{React},  utilizing \textbf{ChakraUI} for common UI elements\\
-% \pt Utilized \textbf{Zustand} for efficient state management in the frontend, providing updates on any change in the backend.\\
-% \sectionsep
+%\resumeProjectHeading
+%    {\textbf{Photogram - An image sharing social media platform} \href{https://github.com/nikhilCad/photogram}{[Code]} \href{https://photogram-eight.vercel.app/}{[Live]}}{}
+%    \resumeItemListStart
+%      \resumeItem{Launched Photogram, an interactive image-sharing platform with \textbf{secure user authentication, posts, comments, homepage, and suggested users} using \textbf{Firebase}.}
+%      \resumeItem{Developed \textbf{posts, comments, homepage, and suggested users} functionality for enhanced user engagement.}
+%      \resumeItem{Developed responsive UI using \textbf{React}, utilizing \textbf{ChakraUI} for common UI elements}
+%      \resumeItem{Utilized \textbf{Zustand} for efficient state management in the frontend, providing updates on any change in the backend.}
+%    \resumeItemListEnd
 
 % Commented out to save space for a strict 1-page budget:
-% \projectposition{Created a Clicker Game Using Godot Engine \href{https://github.com/nikhilCad/reality-clicker}{[Code]} \href{https://nikhilcad.itch.io/reality-clicker}{[Live]}}{}
-% \pt Built a conventional clicker with various types of \textbf{shops/auto-clicker} upon progression \\
-% \pt Has \textbf{exponential difficulty} (similar to other games in genre) to deviate income from in game cost in log scale \\
-% \pt Can be played on Windows, Browser and Android, played by 600+ players on \textbf{itch.io}\\
-% \pt Has \textbf{Save, Load, and prestige options} to provide engaging gameplay\\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Created a Clicker Game Using Godot Engine} \href{https://github.com/nikhilCad/reality-clicker}{[Code]} \href{https://nikhilcad.itch.io/reality-clicker}{[Live]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Built a conventional clicker with various types of \textbf{shops/auto-clicker} upon progression}
+%       \resumeItem{Has \textbf{exponential difficulty} (similar to other games in genre) to deviate income from in game cost in log scale}
+%       \resumeItem{Can be played on Windows, Browser and Android, played by 600+ players on \textbf{itch.io}}
+%       \resumeItem{Has \textbf{Save, Load, and prestige options} to provide engaging gameplay}
+%     \resumeItemListEnd
 
-% \position{Created a Movie Description Site in React and Flask \href{https://github.com/nikhilCad/flask-movie-app}{[Code]}}{}
-% \pt Built a web app that fetches movie title, description and poster using \textbf{Flask} \\
-% \pt Uses the \textbf{TMDB API} to get dynamic movie information, using \textbf{React} and \textbf{Node} to build the front-end\\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Created a Movie Description Site in React and Flask} \href{https://github.com/nikhilCad/flask-movie-app}{[Code]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Built a web app that fetches movie title, description and poster using \textbf{Flask}}
+%       \resumeItem{Uses the \textbf{TMDB API} to get dynamic movie information, using \textbf{React} and \textbf{Node} to build the front-end}
+%     \resumeItemListEnd
 
-% \position{Created Todos App in React \href{https://github.com/nikhilCad/TodoReactApp}{[Code]} \href{https://nikhilcad.github.io/TodoReactApp}{[Live]}}{}
-% \pt Create a simple app for todos using \textbf{React.js} and \textbf{Node.js} \\
-% \pt User can \textbf{add or remove task} from the list using the UI
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Created Todos App in React} \href{https://github.com/nikhilCad/TodoReactApp}{[Code]} \href{https://nikhilcad.github.io/TodoReactApp}{[Live]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Create a simple app for todos using \textbf{React.js} and \textbf{Node.js}}
+%       \resumeItem{User can \textbf{add or remove task} from the list using the UI}
+%     \resumeItemListEnd
 
-% \position{Created my own blog \href{https://github.com/nikhilcad/nikhilcad.github.io}{[Code]} \href{https://nikhilcad.github.io}{[Live]}}{}
-% \pt Website created in HTML, CSS and Javascript\\
-% \pt Whole project is \textbf{managed on Github using git} \\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Created my own blog} \href{https://github.com/nikhilcad/nikhilcad.github.io}{[Code]} \href{https://nikhilcad.github.io}{[Live]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Website created in HTML, CSS and Javascript}
+%       \resumeItem{Whole project is \textbf{managed on Github using git}}
+%     \resumeItemListEnd
 
-% \projectposition{Python News Reader App \href{https://github.com/nikhilCad/pySimpleRSS}{[Code+Screenshots]}}{}
-% \pt Created a News Reader App using \textbf{Python} \\
-% \pt Provided a way to subscribe user's sources using RSS feeds available at preferred website \\
-% \pt Use \textbf{beautifulsoup library to parse} the website content with selectors \\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Python News Reader App} \href{https://github.com/nikhilCad/pySimpleRSS}{[Code+Screenshots]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Created a News Reader App using \textbf{Python}}
+%       \resumeItem{Provided a way to subscribe user's sources using RSS feeds available at preferred website}
+%       \resumeItem{Use \textbf{beautifulsoup library to parse} the website content with selectors}
+%     \resumeItemListEnd
 
-% \position{Created game “pyrager” using Python \href{https://github.com/nikhilCad/pyRager}{[Code+Screenshots]}}{}
-% \pt Can move using keyboard keys to move. \textbf{Collision detection} using arrays \\
-% \pt \textbf{Saving and loading} using Python and text files \\
-% \sectionsep
+% \resumeProjectHeading
+%     {\textbf{Created game “pyrager” using Python} \href{https://github.com/nikhilCad/pyRager}{[Code+Screenshots]}}{}
+%     \resumeItemListStart
+%       \resumeItem{Can move using keyboard keys to move. \textbf{Collision detection} using arrays}
+%       \resumeItem{\textbf{Saving and loading} using Python and text files}
+%     \resumeItemListEnd
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Skills} 
-\hrulefill
+    \resumeSubHeadingListEnd
 
-\pt \textbf{Languages \& Frameworks:} TypeScript, Java, Golang, Python, C++, SQL, GraphQL, React, Next.js, Node.js, Flask \\
-\pt \textbf{Tools \& Cloud:} AWS (EC2, S3, Lambda, CloudWatch), GCP, Terraform, Docker, Firebase, Git, Jest, Playwright \\
 
-\sectionsep
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Frameworks}{: TypeScript, Java, Golang, Python, C++, SQL, GraphQL, React, Next.js, Node.js, Flask} \\
+     \textbf{Tools \& Cloud}{: AWS (EC2, S3, Lambda, CloudWatch), GCP, Terraform, Docker, Firebase, Git, Jest, Playwright}
+    }}
+ \end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     ACHIEVEMENTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Achievements} 
-\hrulefill
 
-\pt Solved \textbf{600+} Data Structures and Algorithm problems on \textbf{Leetcode} \href{https://leetcode.com/thisidusedbysomeone/}{[Link]}, rated \textbf{1764} in contests.\\ 
-\pt Achieved a highest rating of \textbf{1736 (Expert)} in \textbf{Codeforces} \href{https://codeforces.com/profile/akatsumanoka}{[Link]}.\\
-\pt Published ICIC3S paper on \textbf{Plant Disease Identification Models} \href{https://ieeexplore.ieee.org/document/10603350}{[IEEE Xplore]}.\\\sectionsep
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \resumeItemListStart
+       \resumeItem{Solved \textbf{600+} Data Structures and Algorithm problems on \textbf{Leetcode} \href{https://leetcode.com/thisidusedbysomeone/}{\underline{[Link]}}, rated \textbf{1764} in contests.}
+       \resumeItem{Achieved a highest rating of \textbf{1736 (Expert)} in \textbf{Codeforces} \href{https://codeforces.com/profile/akatsumanoka}{\underline{[Link]}}.}
+       \resumeItem{Published ICIC3S paper on \textbf{Plant Disease Identification Models} \href{https://ieeexplore.ieee.org/document/10603350}{\underline{[IEEE Xplore]}}.}
+     \resumeItemListEnd
+    }}
+ \end{itemize}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+
+%-------------------------------------------
 \end{document}
