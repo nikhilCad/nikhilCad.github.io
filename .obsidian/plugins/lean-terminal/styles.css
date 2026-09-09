@@ -1,0 +1,696 @@
+/* ============================================================
+ * xterm.js core CSS — vendored from @xterm/xterm@5.5.0
+ * Source: node_modules/@xterm/xterm/css/xterm.css
+ * Must be included — xterm.js does not inject its own styles.
+ * Update this block when upgrading @xterm/xterm.
+ * ============================================================ */
+
+.xterm {
+  cursor: text;
+  position: relative;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.xterm.focus,
+.xterm:focus {
+  outline: none;
+}
+
+.xterm .xterm-helpers {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+.xterm .xterm-helper-textarea {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  position: absolute;
+  opacity: 0;
+  left: -9999em;
+  top: 0;
+  width: 0;
+  height: 0;
+  z-index: -5;
+  white-space: nowrap;
+  overflow: hidden;
+  resize: none;
+}
+
+.xterm .composition-view {
+  background: #000000;
+  color: #ffffff;
+  display: none;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.xterm .composition-view.active {
+  display: block;
+}
+
+.xterm .xterm-viewport {
+  background-color: #000000;
+  overflow-y: scroll;
+  cursor: default;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.xterm .xterm-screen {
+  position: relative;
+}
+
+.xterm .xterm-screen canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.xterm .xterm-scroll-area {
+  visibility: hidden;
+}
+
+.xterm-char-measure-element {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -9999em;
+  line-height: normal;
+}
+
+.xterm.enable-mouse-events {
+  cursor: default;
+}
+
+.xterm.xterm-cursor-pointer,
+.xterm .xterm-cursor-pointer {
+  cursor: pointer;
+}
+
+.xterm.column-select.focus {
+  cursor: crosshair;
+}
+
+.xterm .xterm-accessibility:not(.debug),
+.xterm .xterm-message {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  color: transparent;
+  pointer-events: none;
+}
+
+.xterm .xterm-accessibility-tree:not(.debug) *::selection {
+  color: transparent;
+}
+
+.xterm .xterm-accessibility-tree {
+  user-select: text;
+  white-space: pre;
+}
+
+.xterm .live-region {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.xterm .xterm-dim {
+  opacity: 1;
+}
+
+.xterm-underline-1 { text-decoration: underline; }
+.xterm-underline-2 { text-decoration: underline; }
+.xterm-underline-3 { text-decoration: underline; }
+.xterm-underline-4 { text-decoration: underline; }
+.xterm-underline-5 { text-decoration: underline; }
+
+.xterm-overline { text-decoration: overline; }
+.xterm-strikethrough { text-decoration: line-through; }
+
+.xterm-screen .xterm-decoration-container .xterm-decoration {
+  z-index: 6;
+  position: absolute;
+}
+
+.xterm-screen .xterm-decoration-container .xterm-decoration.xterm-decoration-top-layer {
+  z-index: 7;
+}
+
+.xterm-decoration-overview-ruler {
+  z-index: 8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.xterm-decoration-top {
+  z-index: 2;
+  position: relative;
+}
+
+/* ============================================================
+ * Plugin styles
+ * ============================================================ */
+
+.terminal-view-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Tab bar */
+.terminal-tab-bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px 8px;
+  background: var(--background-secondary);
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex-shrink: 0;
+}
+
+/* Vertical tab bar variants */
+.terminal-view-container.terminal-tabs-left,
+.terminal-view-container.terminal-tabs-right {
+  flex-direction: row;
+}
+
+.terminal-view-container.terminal-tabs-right {
+  flex-direction: row-reverse;
+}
+
+.terminal-view-container.terminal-tabs-left .terminal-tab-bar,
+.terminal-view-container.terminal-tabs-right .terminal-tab-bar {
+  flex-direction: column;
+  width: 140px;
+  border-bottom: none;
+  border-right: 1px solid var(--background-modifier-border);
+  align-items: stretch;
+  overflow-y: auto;
+  padding: 8px 4px;
+}
+
+.terminal-view-container.terminal-tabs-right .terminal-tab-bar {
+  border-right: none;
+  border-left: 1px solid var(--background-modifier-border);
+}
+
+.terminal-view-container.terminal-tabs-left .terminal-tab.active {
+  box-shadow: inset -2px 0 0 var(--tab-accent, var(--interactive-accent));
+}
+
+.terminal-view-container.terminal-tabs-right .terminal-tab.active {
+  box-shadow: inset 2px 0 0 var(--tab-accent, var(--interactive-accent));
+}
+
+.terminal-view-container.terminal-tabs-left .terminal-tab.drag-over,
+.terminal-view-container.terminal-tabs-right .terminal-tab.drag-over {
+  border-left: none;
+  border-top: 2px solid var(--interactive-accent);
+}
+
+.terminal-view-container.terminal-tabs-left .terminal-new-tab,
+.terminal-view-container.terminal-tabs-right .terminal-new-tab {
+  text-align: center;
+  padding: 6px 10px;
+}
+
+.terminal-tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: transparent;
+  user-select: none;
+}
+
+.terminal-tab:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.terminal-tab.dragging {
+  opacity: 0.4;
+}
+
+.terminal-tab.drag-over {
+  border-left: 2px solid var(--interactive-accent);
+}
+
+.terminal-tab.active {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  box-shadow: inset 0 -2px 0 var(--tab-accent, var(--interactive-accent));
+}
+
+.terminal-tab-label {
+  pointer-events: none;
+}
+
+.terminal-tab-close {
+  font-size: 14px;
+  line-height: 1;
+  opacity: 0.5;
+  border-radius: 2px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminal-tab-close:hover {
+  opacity: 1;
+  background: var(--background-modifier-hover);
+}
+
+.terminal-new-tab {
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-muted);
+  user-select: none;
+}
+
+.terminal-new-tab:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+/* Rename input inline in tab */
+.terminal-tab-rename-input {
+  background: var(--background-primary);
+  color: var(--text-normal);
+  border: 1px solid var(--interactive-accent);
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 1px 4px;
+  width: 100px;
+  outline: none;
+}
+
+/* Tab context menu */
+.terminal-tab-context-menu {
+  position: fixed;
+  z-index: 1000;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 4px;
+  min-width: 140px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-ctx-item {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-normal);
+}
+
+.terminal-ctx-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+.terminal-ctx-color-label {
+  cursor: default;
+  color: var(--text-muted);
+  font-size: 11px;
+  padding-bottom: 2px;
+}
+
+.terminal-ctx-color-label:hover {
+  background: transparent;
+}
+
+.terminal-ctx-color-row {
+  display: flex;
+  gap: 4px;
+  padding: 4px 10px 6px;
+}
+
+.terminal-ctx-swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.terminal-ctx-swatch:hover {
+  border-color: var(--text-muted);
+}
+
+.terminal-ctx-swatch.active {
+  border-color: var(--text-normal);
+}
+
+.terminal-ctx-swatch-none {
+  background: var(--background-primary);
+  position: relative;
+}
+
+.terminal-ctx-swatch-none::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 2px;
+  background: var(--text-muted);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Prevent Obsidian's view-content from scrolling — xterm handles its own scroll */
+.workspace-leaf-content[data-type="terminal-view"] .view-content {
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Terminal host fills remaining space */
+.terminal-host {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+/* Session fills host */
+.terminal-session {
+  position: absolute;
+  inset: 0;
+}
+
+.terminal-session-hidden {
+  display: none;
+}
+
+/* Constrain xterm to container */
+.terminal-session .xterm {
+  height: 100%;
+}
+
+/* Scrollbar styling — display:block overrides Obsidian's global scrollbar hide */
+.terminal-session .xterm-viewport::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+}
+
+.terminal-session .xterm-viewport::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg, rgba(128, 128, 128, 0.5));
+  border-radius: 4px;
+}
+
+.terminal-session .xterm-viewport::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Icon setting preview */
+.lean-terminal-icon-preview {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.lean-terminal-icon-preview svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Drag-and-drop file path label */
+.terminal-drag-label {
+  position: fixed;
+  display: none;
+  padding: 4px 10px;
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+  border-radius: 4px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.terminal-drag-label-visible {
+  display: block;
+}
+
+/* Search overlay */
+.lean-terminal-search-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: var(--background-secondary);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.lean-terminal-search-overlay--visible {
+  display: flex;
+}
+
+.lean-terminal-search-input {
+  flex: 1;
+  font-size: 12px;
+  padding: 2px 6px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 3px;
+  outline: none;
+}
+
+.lean-terminal-search-counter {
+  font-size: 11px;
+  color: var(--text-muted);
+  min-width: 60px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.lean-terminal-search-btn {
+  padding: 2px 6px;
+  font-size: 12px;
+  cursor: pointer;
+  background: var(--interactive-normal);
+  color: var(--text-normal);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 3px;
+  line-height: 1.4;
+}
+
+.lean-terminal-search-btn:hover {
+  background: var(--interactive-hover);
+}
+
+.lean-terminal-search-btn--active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
+
+/* Tab pinning */
+.terminal-tab-pin-icon {
+  font-size: 10px;
+  opacity: 0.8;
+  flex-shrink: 0;
+}
+
+/* --- Per-tab colored fill ------------------------------------------- */
+/* --tab-accent (hex) and --tab-color-intensity (0..MAX, e.g. 12) come
+   from the tab-manager and drive idle/hover/active fill density. The
+   multiplier (1.5/2.2/2.7) lets users keep the same numeric intensity
+   value while idle/hover/active stay visually distinct. */
+.terminal-tab--colored {
+  background: color-mix(
+    in srgb,
+    var(--tab-accent) calc(var(--tab-color-intensity) * 1.5%),
+    transparent
+  );
+  border-left: 3px solid var(--tab-accent);
+}
+
+.terminal-tab--colored:hover {
+  background: color-mix(
+    in srgb,
+    var(--tab-accent) calc(var(--tab-color-intensity) * 2.2%),
+    var(--background-modifier-hover)
+  );
+}
+
+.terminal-tab--colored.active {
+  background: color-mix(
+    in srgb,
+    var(--tab-accent) calc(var(--tab-color-intensity) * 2.7%),
+    var(--background-primary)
+  );
+}
+
+/* Settings palette swatch chip */
+.lean-color-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+  border: 1px solid var(--background-modifier-border);
+}
+
+/* --- Wiki-link autocomplete dropdown --------------------------------- */
+.lean-wikilink-dropdown {
+  position: absolute;
+  top: var(--lean-terminal-dropdown-top, auto);
+  bottom: var(--lean-terminal-dropdown-bottom, auto);
+  left: var(--lean-terminal-dropdown-left, auto);
+  z-index: 100;
+  min-width: 260px;
+  max-width: 420px;
+  max-height: 240px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  font-family: var(--font-interface);
+  font-size: 12.5px;
+  color: var(--text-normal);
+  overflow: hidden;
+  box-shadow: var(--shadow-s);
+}
+
+.lean-wikilink-header {
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.lean-wikilink-empty {
+  padding: 12px;
+  color: var(--text-faint);
+  font-style: italic;
+}
+
+.lean-wikilink-list {
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.lean-wikilink-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 7px 12px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.lean-wikilink-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+.lean-wikilink-item.is-selected {
+  background: rgba(var(--interactive-accent-rgb, 0, 122, 255), 0.1);
+}
+
+.lean-wikilink-name {
+  color: var(--text-normal);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lean-wikilink-path {
+  color: var(--text-faint);
+  font-size: 10.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: auto;
+}
+
+.lean-wikilink-item.is-unresolved .lean-wikilink-name {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* --- Wiki-link preview pane ------------------------------------------ */
+.lean-wikilink-preview {
+  position: absolute;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 12px;
+  color: var(--text-normal);
+  max-height: 240px;
+  overflow: hidden;
+  z-index: 1001;
+  font-family: var(--font-interface);
+  box-shadow: var(--shadow-s);
+}
+
+.lean-preview-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+
+.lean-preview-backlinks { color: var(--text-accent); }
+
+.lean-preview-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.lean-preview-tag {
+  background: var(--background-primary-alt);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  color: var(--text-accent);
+}
+
+.lean-preview-content {
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.55;
+  color: var(--text-muted);
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.lean-preview-empty {
+  color: var(--text-faint);
+  font-style: italic;
+}

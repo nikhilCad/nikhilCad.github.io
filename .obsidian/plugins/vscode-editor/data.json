@@ -1,0 +1,27 @@
+{
+  "extensions": [
+    "ts",
+    "js",
+    "py",
+    "css",
+    "c",
+    "cpp",
+    "go",
+    "rs",
+    "java",
+    "lua",
+    "php",
+    "cs",
+    "tex"
+  ],
+  "folding": true,
+  "lineNumbers": true,
+  "wordWrap": true,
+  "minimap": true,
+  "semanticValidation": true,
+  "syntaxValidation": true,
+  "themeColor": "DARK",
+  "fontSize": 14,
+  "fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+  "fontLigatures": true
+}

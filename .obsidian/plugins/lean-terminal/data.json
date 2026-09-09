@@ -1,0 +1,79 @@
+{
+  "shellPath": "",
+  "shellPathWin": "",
+  "shellPathMac": "",
+  "shellPathLinux": "",
+  "startupCommand": "",
+  "fontSize": 14,
+  "fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "lineHeight": 1,
+  "theme": "auto",
+  "backgroundColor": "",
+  "cursorBlink": true,
+  "cursorStyle": "block",
+  "copyOnSelect": false,
+  "scrollback": 5000,
+  "ribbonIcon": "square-terminal",
+  "defaultLocation": "bottom",
+  "notifyOnCompletion": false,
+  "notificationSound": "beep",
+  "notificationVolume": 50,
+  "searchShortcut": "Ctrl+Alt+F",
+  "persistBuffer": true,
+  "recentSessionsMax": 10,
+  "recentSessions": [],
+  "enableClaudeIntegration": false,
+  "claudeSessionsDir": "",
+  "claudeRegistryPath": "claude-sessions.md",
+  "claudeSessionsMax": 25,
+  "tabColorTintsBackground": true,
+  "tabColors": [
+    {
+      "name": "None",
+      "value": "",
+      "tintStrength": 0,
+      "builtin": true
+    },
+    {
+      "name": "Vermilion",
+      "value": "#FC3634",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Sky Blue",
+      "value": "#25D0F7",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Gold",
+      "value": "#FFD700",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Mint",
+      "value": "#18BC9C",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Azure",
+      "value": "#007BFF",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Purple",
+      "value": "#A991D4",
+      "tintStrength": 12,
+      "builtin": true
+    }
+  ],
+  "tabBarPosition": "top",
+  "wikiLinkAutocomplete": false,
+  "wikiLinkInsertMode": "wikilink",
+  "clickableFilePaths": true,
+  "readlineShortcuts": true
+}
