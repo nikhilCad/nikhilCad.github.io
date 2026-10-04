@@ -1,6 +1,7 @@
 ```
 cd static/resumeLaTeX
 ./tectonic Nikhil_Kadiyan_Resume.tex
+cp Nikhil_Kadiyan_Resume.pdf /home/nikhil/Documents/Obsidian/Notes/DB/Nikhil_Kadiyan_Resume.pdf
 ```
 
 
