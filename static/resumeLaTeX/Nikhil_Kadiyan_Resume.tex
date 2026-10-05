@@ -52,10 +52,8 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+\newcommand{\resumeItem}[1]{%
+  \item\small{#1}%
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -86,7 +84,9 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{%
+  \begin{itemize}[itemsep=0pt, parsep=0pt, topsep=0pt, partopsep=0pt]
+}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -182,8 +182,6 @@
         }
         \resumeItem{Added frontend support for \textbf{monitor alerts in Slack}, enabling users to receive data updates directly in Slack without opening the BI tool, increasing notification click rate by 20\%.}
       \resumeItemListEnd
-
-    \vspace{40mm}
 
     \resumeSubheading
       {ThoughtSpot}{Jun. 2023 -- Jul. 2023 $|$ Jan. 2024 -- Jun. 2024}
