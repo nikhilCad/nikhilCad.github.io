@@ -5,7 +5,7 @@ dateString: August 2025 - Present
 draft: false
 tags: ["Java", "Golang", "Python", "React", "Typescript"]
 showToc: false
-weight: 301
+weight: 10
 hideAuthor: true
 hideSummary: true
 showCompany: true

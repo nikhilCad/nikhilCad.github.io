@@ -5,7 +5,7 @@ dateString: June 2022 - August 2022
 draft: false
 tags: ["Python", "Pytorch", "Linux"]
 showToc: false
-weight: 301
+weight: 40
 hideAuthor: true
 hideSummary: true
 showCompany: true

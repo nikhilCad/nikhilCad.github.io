@@ -5,7 +5,7 @@ dateString: Jun-July 2023,  Jan 2024 - Jun 2024
 draft: false
 tags: ["React", "Typescript", "GraphQL", "Playwright", "Jest"]
 showToc: false
-weight: 301
+weight: 30
 hideAuthor: true
 hideSummary: true
 showCompany: true

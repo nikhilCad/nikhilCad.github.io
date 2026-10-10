@@ -5,7 +5,7 @@ dateString: July 2024 - July 2025
 draft: false
 tags: ["Java", "Golang", "React", "Typescript", "GraphQL", "Playwright", "Jest"]
 showToc: false
-weight: 301
+weight: 20
 hideAuthor: true
 hideSummary: true
 showCompany: true
