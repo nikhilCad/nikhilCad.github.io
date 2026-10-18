@@ -15,7 +15,7 @@ showCompany: true
 
 August 2025 - Present
 
-- Reduced Prometheus metric cardinality by over **270,000 time series** in a **Java-based Kafka-driven Scheduler Service** by removing high-dimensionality labels (**client\_id**, **org\_id**) from request latency metrics — cutting monitoring infrastructure costs, improving dashboard query performance, and preventing metric storage from being overwhelmed at scale.
+- Reduced Prometheus metric cardinality by over **270,000 time series** in a **Java-based Kafka-driven Scheduler Service** by removing high-dimensionality labels (**client\_id**, **org\_id**) from request latency metrics, cutting monitoring infrastructure costs, improving dashboard query performance, and preventing metric storage from being overwhelmed at scale.
 - Architected a **distributed, multi-tenant provisioning engine** using **Python, FastAPI, SQLAlchemy, Alembic,** and **Terraform on AWS** (EC2, S3) to automate isolated environment deployments across **3 global regions** (USA, Europe, Oceania), reducing onboarding deployment timeline from **weeks to under 2 hours** for **3k+ enterprise users**.
 - Created **SpotterCode**, a custom **MCP server** handling **200 concurrent requests** via an async, multi-worker and horizontally scalable architecture and caching across 3 dedicated agents (embed, docs, API); enabling **5k+ enterprise users** to embed BI websites via natural language, **increasing embed adoption by 20%**.
 - Engineered enterprise **SSO invitation and authentication flows** in **Java**, integrating with **Okta** and evaluating additional identity providers including **LinkedIn, GitHub, Discord, and Twitter**; resolved activation and identity-mismatch edge cases to maintain consistent user and invitation states.

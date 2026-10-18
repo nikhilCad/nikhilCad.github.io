@@ -16,9 +16,11 @@ draft: false
 hideAuthor: true
 ---
 
- - Game made in Python using the tkinter module as a school project
- - Can move using keyboard keys to move. Basic collision detection using arrays
- - Saving and loading using Python and text files
+<!-- SYNCED:BODY:START -->
+ - Game made in **Python** using the **tkinter** module as a school project.
+ - Can move using keyboard keys to move. Basic **collision detection** using arrays.
+ - Saving and loading using **Python** and text files.
+<!-- SYNCED:BODY:END -->
 
  
  **CONTROLS**:

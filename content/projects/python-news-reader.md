@@ -16,6 +16,8 @@ draft: false
 hideAuthor: true
 ---
 
- - Created a NewsReader App using Python
- - Provided a way to subscribe user’s sources using RSS feeds available at preferred website
- - Use beautifulsoup library to parse the website content with selectors
+<!-- SYNCED:BODY:START -->
+ - Created a News Reader App using **Python**.
+ - Provided a way to subscribe user's sources using RSS feeds available at preferred website.
+ - Use **beautifulsoup library to parse** the website content with selectors.
+<!-- SYNCED:BODY:END -->

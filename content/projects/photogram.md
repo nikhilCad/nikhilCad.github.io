@@ -16,7 +16,8 @@ draft: false
 hideAuthor: true
 ---
 
- - Launched Photogram, a dynamic image-sharing platform with secure user authentication using Firebase
- - Implemented post, comments, home page and suggested users functionality for enhanced user engagement
- - Developed responsive UI using React, utilizing ChakraUI for common UI elements
- - Utilized Zustand for efficient state management in the frontend, providing instant updates of frontend on any change in backend
+<!-- SYNCED:BODY:START -->
+ - Launched Photogram, a dynamic image-sharing platform with secure user authentication using **Firebase**, and implemented post, comments, home page, and suggested users functionality for enhanced user engagement.
+ - Developed a responsive UI using **React**, utilizing **ChakraUI** for common UI elements.
+ - Utilized **Zustand** for efficient state management in the frontend, providing instant updates of the frontend on any change in the backend.
+<!-- SYNCED:BODY:END -->
